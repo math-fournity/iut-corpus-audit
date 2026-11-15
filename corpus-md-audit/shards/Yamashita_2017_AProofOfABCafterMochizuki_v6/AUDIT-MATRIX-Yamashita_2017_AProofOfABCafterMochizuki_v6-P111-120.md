@@ -1,0 +1,14 @@
+# AUDIT-MATRIX-Yamashita_2017_AProofOfABCafterMochizuki_v6-P111-120.md — Yamashita_2017_AProofOfABCafterMochizuki_v6 p111-p120
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 111 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ✓ | FAIL | F2: p111 同句两处 (Δ^temp)^Θ[μ_N] 一处 ^Θ 一处被误读为 ^⊖；引号数学项 1/l 与 l 被乱码化（τ^ζ、66/3 残渣）；正文混入杂散字符 b、1；(≅ lℤ×…) 被误析为 l_{ℤ}^{ℤ} 已登记(待裁决批11) |
+| 112 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1/F2: p112 三处映射箭头丢失（†Π_X^temp↠†G_K、†Π↠†Π_Y^temp、Aut(†M)→Aut(†M_M) 处箭头空缺）；s^Θ 两处误读为 s^⊖、一处误读为 s^†；μ_N-conjugacy 的下标 N 丢失；‡M 混入伪上标减号；D_†Π 被乱码化为 hat+\ddb；(Π↦M)(M↦Π) 引号乱码化 已登记(待裁决批11) |
+| 113 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p113 †Π_Y^temp/†Π_Y̌^temp≅μ₂ 中第二个 Π 误读为 H；theta section s_Y^Θ 误读为 Ξ_Y^Θ；(Z/lZ)^Θ 误读为 ^sharp；s^Θ_†Π 误读为 ⊖；两处 †Π↠†Π_Y^temp 的 ↠ 箭头丢失；difference 丢字母变 diference；s_Y^Θ 后逗号误为句号；ker( 前混入伪 overline 已登记(待裁决批11) |
+| 114 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1/F2: p114 Proof 段七处 ↠ 映射箭头丢失（ker/projection/quotient/surjection 各处）；(Π_Y^temp)^Θ 一处误读为 ^†、一处误读为 ^⊖；Π_Y^temp[μ_N]、μ_N、temp 上混入伪 overline/bar；s^Θ_†Π 下标乱码化为 dagger-II；ofstandard 丢空格；双句点残留；etale 重音符乱码 已登记(待裁决批11) |
+| 115 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1/F2: p115 两条正合列及多处行内 lZ 的下划线装饰丢失；shifting automorphisms 的 α̈_δ 丢下标 δ；首个 lim̲_N 丢下标 N 与箭头样式；混入杂散字符 b 两处（bdoes、non-bdiscreteness）；汇总表格全部单元格保留完好 已登记(待裁决批11) |
+| 116 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F1/F2/F4: p116 2×2 矩阵显示式（cyclotomic/constant multiple/discrete rigidity 对应关系）整体丢失、被替换为 image placeholder；a non-zero cusp 后的 ε̲ 符号丢失；cusps ε̲′, ε̲″ 的第二个误读为 ε̲′；三处 X̲ 误读为 Δ（含 ι 下标）；"Ẑ(1)" 引号装饰系统性乱码为 ^{\mathfrak{N}}/\overset 堆栈；正文混入约十处杂散 b（rigidb bity、subquobtient）；inter-unversal 丢 i、Teichuller 丢 m；afine/coeficient 丢 f 已登记(待裁决批11) |
+| 117 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2/F1: p117 复合 I_ε″↪Δ_ε↠Δ_ε⁻ 的目标误读为 Δ_ε⁺（正负号错）；σ:G_K→J_X 箭头丢失；ε 符号丢失三处（cusp 后、l and 后、determined by 后）；ι_X̲ 三处误读为 ι_Δ；Π_X̲ 混入伪上标负号；I_ε″ 与 Δ_ε 混入伪 bar；"2ε" 引号系统性乱码（66/9、64/3、44、cdots）且一处 2ε″ 误为三撇；Aut(Π_X̲) 疑丢 Π 且混入 overset-prime 伪迹；Def 7.24 的 tors 下划线丢失 已登记(待裁决批11) |
+| 118 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p118 Remark 7.25.1 显示式 (≅ Z/2Z) 误读为 Z/2lZ（混入伪 l、改变群含义）；involution 丢 n 变 ivolution；Π_C 混入伪 overline；ε′ 后逗号误为句点；Π_X=H·Π_X 两因子读法自指疑误（第二因子 Δ/Π 需600dpi回图确认） 已登记(待裁决批11) 已裁决(批11) |
+| 119 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1/F2: p119 三处 functor 箭头丢失（𝔽_Φ→D 两处、C→D 一处）；deg_Fr(ψ) 误读为 deg_Fr(n)；𝔹(A):=𝔹(A_D) 左侧 𝔹 乱码化为 BΦ；μ_N-split 丢下标 N；See 丢 e 变 Se；μ_N-orbit 断裂为 orbi t 伪迹；Φ, D 的逗号误为句点；组合式大括号定界符在提取中丢失（binom 无括号） 已登记(待裁决批11) |
+| 120 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ✗ | FAIL | F1/F2/F4: p120 交换图（F′→F 与 𝔽_Φ′→𝔽_Φ 两行及下行箭头）整体丢失、被替换为 image placeholder；正文五处箭头丢失（两个 pre-Frobenioid 结构箭头、两个 equivalence 的 tilde 箭头只剩空壳、Φ′→Φ 竖线限制处一处）；Birationalisation 标题 "Z≥0⇝Z" 箭头丢失且 ≥0 误读为 >0（同页 Realification 处 ≥0 读对，内部不一致）；G⋉O^▷(G) 半直积符号误读为 ∩；Isomet(G) 集合左花括号丢失；Frebenioid（o 误为 e）、toplogical 丢 o 已登记(待裁决批11) |

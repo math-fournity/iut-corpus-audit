@@ -1,0 +1,14 @@
+# AUDIT-MATRIX-Mochizuki_IUT-II_2020-12-23-P159-168.md — Mochizuki_IUT-II_2020-12-23 p159-p168
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 159 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p159 多处字符误读——上标 ⊩▸×μ 被读作 ⋆μ 与 ∥−ν×μ、‡F̆ 被读作 {F̆、†HT 的 H 被读作 iϰ 且 NF 掉出上标、⊩ 多处拍平为 ∣⊢/∣t、3.6,(c) 前混入 Δ；F3: 方括号[被读成/或⟩、页眉 TEICHMÜLLER 丢变音；prime-strip 四元组第三项 ⊢/⊩ 存疑需600dpi回图 已登记(待裁决批8) 已裁决(批8) |
+| 160 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p160 上标 ▸ 多种误读（•/≫/∥−ν 配 \parallel）、‡ 两处误读为 †、ell 两处误读为 e^i1、"†F̆^{⊢×μ}_△ 不变式"内联式碎成 \mathfrak{s} 乱码、†F̆^⊢_gau 上标整体丢失、Isom 两处下标乱码；F3: [cf. 被读成 ∫cf.、prime-strips 丢连字符、,; 重复标点 已登记(待裁决批8) |
+| 161 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1: p161 居中 display「⋯→•→•→•→⋯」整行丢失；F2: 引号箭头与 • 顶点两处碎成 4/S/Pi 乱码、Θ±ellNF 的 F 误读成带波浪 F̃、F^{⊢×} 碎成 ⊢⊢Π、Γ 向量箭头一处误读成 check 记号；F3: 下标 gau 丢 g 并把 gau 挤进正文、分号丢失、V̲ 下划线丢失、证明结尾 ∘ 记号丢失；Remark 4.10.1 首句 F 上标 ⊢/⊩ 存疑需600dpi回图 已登记(待裁决批8) 已裁决(批8) |
+| 162 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p162 内联 coricity 式 †𝔇⇝‡𝔇 乱码（‡ 误读为 †、箭头碎成 stackrel 垃圾、剑号堆到字母上方）、q 参数引号碎成 bf 垃圾、𝒪^×(-) 后混入花体 n 假上标、逗号连字符被读成中文「一，」；F3: 引号多处丢或变撇号、两 Θ-link 间逗号丢失、句末句号丢失、Teichmüller 写成 Teichm¨uller；τ̃_{𝒯_v̲} 引用符号乱码需600dpi回图 已登记(待裁决批8) 已裁决(批8) |
+| 163 | Y | ✓ | ✗ | ⚠ | ⚠ | ✗ | ⚠ | FAIL | F4: p163 图 4.3 五个盒与连线全部丢失只剩图片占位引用；F2: 引号 identity 被读成 ∬dentity（首字母 i 丢失）、题注 Hodge 断成 Hod_ℓ ge、Étale 变 Etale 加游离 ´；F3: Teichmüller 变音丢失两处、em 破折号并入公式、fails 并进数学式；display 与盒标 𝒟·Θ 记号中点读成连字符存疑需600dpi回图 已登记(待裁决批8) 已裁决(批8) |
+| 164 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p164 引号 (−)𝔇^⊢_△ 两处碎成 frak sdQ 乱码、q↦ 列向量 display 结构被毁（q 变 stackrel 垃圾、迭代式列向量拆成 binom 加游离 (l*)²）；F3: 闭括号 ] 两处误读成 J、[ 两处误读成 Ω 一处 ∫、étale 变 ´etale、defi-definitions 断词留空格、证明结尾 ∘ 丢失；(−)𝔇^⊢ 第二下标是 > 还是 ℘ 存疑、(iii) 段 D-Θ±ell 后疑漏 NF 需600dpi回图 已登记(待裁决批8) 已裁决(批8) |
+| 165 | Y | ✓ | ✗ | ⚠ | ✓ | ✓ | ⚠ | FAIL | F5: p165 "theta exponents" 后混入伪脚注号 222（原页无此标记）；F3: 行断连字符丢失 4 处（permutation-symmetric、scheme-theoretic 两处、Frobenioid-theoretic 均丢连字符）、étale 变 ´etale 三处；F2: theta 值 display q^{j²} 与下标 v̲ 被拆成上下两行堆叠、"q^{j²}"'s 引号碎成 4 与 ,s^* 垃圾、Θ±ellNF 的 N 误加 overbar；段落中段被切成两块 已登记(待裁决批8) |
+| 166 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p166 distri-butions 断行后丢 r 成 distibutions、末尾 𝔽_l^{×±} 误读为 i±、两个线丛记号全部丢失（⊠ 或 ⊗ 整体消失只剩连字符、ℤ 变成制表符）；F3: Teichmüller 变音丢失两处、étale 变 ´etale、log-wall 的 g 被下标化；第一个线丛符号 ⊠ 与 ⊗ 定形需600dpi回图 已登记(待裁决批8) 已裁决(批8) |
+| 167 | Y | ✓ | ⚠ | ⚠ | ✓ | ✓ | ✓ | WARN | F3: p167 schemetheoretic 丢连字符、F_l^*-symmetry 断词成 -sy/mmetry、[Θ^ell-/NF-bridges of] 内混入多余 ] 且丢连字符、étale 变 ´etale；F2-lite: ℤ 一处拍平成 Z、em 破折号变 ~-；对应关系 display Θ^ell⟷⊞、NF⟷⊠ 忠实 |
+| 168 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p168 in effect 丢 f 成 efect、引号 X′ 与 X 碎成 vecΣ^{66} 与 fraktur G 垃圾、so 变 SO、三处引号变 fraktur s 垃圾、内联 ⊠ 与 ⊞ 六处全部丢失（两处 line bundles 句、两处 juggling of ⊞ and ⊠ 句）；F3: ltorsion 与 schemetheoretic 两处丢连字符、Teichmüller 变音丢失；display Θ^ell⟷⊠、NF⟷⊞ 忠实 已登记(待裁决批8) |

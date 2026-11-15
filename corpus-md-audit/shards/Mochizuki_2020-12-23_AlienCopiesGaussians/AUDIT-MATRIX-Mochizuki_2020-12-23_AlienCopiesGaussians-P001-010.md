@@ -1,0 +1,14 @@
+# AUDIT-MATRIX-Mochizuki_2020-12-23_AlienCopiesGaussians-P001-010.md — Mochizuki_2020-12-23_AlienCopiesGaussians p1-p10
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F1: 摘要首句 Inter-universal Teichmuller theory may be described... 整行丢失、第一条bullet the introduction of two mutually alien copies... 丢失；F2: ≥符号丢失(prime number ≥5变prime number空格5)、effect的ff连字丢成efect共2处、版权符©丢成c；F3: 多处正常字母被误包成sub标签(rich analogies/metric geometry/common features等)、Teichmuller的u分音符拆成¨u共2处、Kokyuroku重音拆分；结构: 页眉行RIMS Kokyuroku被移到文末 已登记(待裁决批5) |
+| 2 | Y | ⚠ | ✓ | ⚠ | ✓ | ✓ | ✓ | WARN | F3: 目录3.3节Θ上标±ell提取为行内LaTeX且其后NF前空格丢失(Θ^{±ell}NF直接相连)；页眉页码2与SHINICHI MOCHIZUKI被移到文末且小型大写字形降为普通大小写；其余36条目录行逐行核对无丢行无错字(Teichmuller本页提取正常) |
+| 3 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 目录4.1-4.4及[cf. 3.8][cf. 3.3]等6处§符号丢失(同类≥3)；F2: 公式两侧引号被误读成假上标——"q^N"开引号成^{6ζ}闭引号成反引号撇、"q"成^{∘}q^{″}、q^N≈q的开闭引号成stackrel 4/stackrel 3；F3: 居中粗体行升格为##标题、两段正文整段误包成sup标签(字符未丢)、bullet圆点丢失、页眉移文末且¨字符分离；l≥5与R≥0与N·h本体提取正确 已登记(待裁决批5) |
+| 4 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 引号被误读成假上标共6处(q^N成^{6ζ}q^N、N成^{66}N^{5}、一处还多出无中生有的\cdots)；F2: l*的上标星号被误读成\divide{s}；F2: q^N≈q末尾q被误加\boldsymbol粗体；F2: 4处§符号丢失(3.3/3.7/3.10/3.11)；F3: 2处居中粗体行一处升格为##标题一处降为普通段落、2处破折号被并进行内数学；页眉移文末 已登记(待裁决批5) |
+| 5 | Y | ⚠ | ✗ | ⚠ | ✓ | ✓ | ⚠ | FAIL | F2: §符号系统性损坏9处——7处直接丢失(3.7/3.8两处/3.11/1/2三处)加2处被误读成数字8(§3.8变83.8)；F2: efect的ff连字丢失2处；F2: (5^mf)句末句号丢失；F3: valuation-theoretic断行连字符合并、etale重音拆分、正文(ii)(iv)被数学化成mathrm、居中粗体行降为普通段落；(1^mf)至(11^gau)上标提取正确；页眉移文末 已登记(待裁决批5) |
+| 6 | Y | ⚠ | ✗ | ✓ | ✓ | ✓ | ⚠ | FAIL | F2: §符号丢失共10处(仅正文一处§2与1.1标题一处§幸存、§1大节标题的§也丢失)；F3: 长段落前半与1.1标题主体被整段误包成sup标签(字符未丢)；F2: Saidi的i分音符拆成¨ı；积分e^{-x^2}dx=√π提取精确、(1^mf)(3^mf)(4^mf)(5^mf)正确、致谢10位数学家姓名全在；页眉移文末 已登记(待裁决批5) |
+| 7 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: dx两侧引号被误读成假上标^{66}与^{99}；F2: 1.2与1.3两个小节标题的§丢失(正文§§以\S{}s形式幸存)；F2: in effect的ff连字丢失；F3: Step 1/2/3的粗体下划线格式丢失；两个display积分链(含2·∫_0^∞与1/(2x)分式与squigarrow)逐项核对精确；页眉移文末 已登记(待裁决批5) |
+| 8 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 引号误读重灾区——sin(-)/cos(-)/tan(-)/exp(-)/1/(1+x^2)五处引号被误读成^{64}/^{39}/mathfrak c/mathfrak P/mathfrak n等假记号且夹入一个全角逗号；F2: ff连字丢失3处(dificult两处、eforts一处)；F2: 1.4标题§丢失；F2: Euclidean plane R^2句末句号丢失；F3: 首行粗体与缩进引用块格式丢失；两个display积分(R^2上下限)与totality/total space引号精确；页眉移文末 已登记(待裁决批5) |
+| 9 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: ff连字丢失8处(1.5标题effect成efect、differentiable两处、effect三处、sufficiently两处)；F2: dx dy被拆成dx加数学dy^prime——撇号无中生有且空格变$定界符；F2: infinitesimals of zero mass公式内空格全失连成一词；F2: phi:U→R与psi:V→R的黑板粗体R退化为普通R两处；F3: determinant断行连字符变空格、em破折号并入数学；Jacobian 2x2偏导矩阵与mapsto映射与∫_V ψdxdy=∫_U φ·Jdsdt精确；1.5标题§丢失；页眉移文末 已登记(待裁决批5) |
+| 10 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: between -pi and pi的首个负号丢失变成between pi and pi(含义改变)；F2: 1.6标题§丢失；F2: ff连字丢失2处(afect/efect)；Step 8/9的R^2补集记号与极坐标映射与五行等式链逐项核对精确；页眉移文末 已登记(待裁决批5) |

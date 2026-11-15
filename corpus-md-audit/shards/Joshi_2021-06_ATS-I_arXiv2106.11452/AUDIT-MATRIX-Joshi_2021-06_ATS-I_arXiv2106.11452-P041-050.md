@@ -1,0 +1,17 @@
+# AUDIT-MATRIX-Joshi_2021-06_ATS-I_arXiv2106.11452-P041-050.md — Joshi_2021-06_ATS-I_arXiv2106.11452 p41-p50
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 41 | Y | ✓ | ⚠ | ⚠ | ✓ | ⚠ | ✓ | WARN | F2: (3)中范畴名𝒢𝒶ℓ_E被提取为Gal_E((2)中却正确)；F5: (3)函子箭头图仅存图像占位符；F3: 三处空格丢失(perfectoidfield/ofchar/oftopological) |
+| 42 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: (7.4.2)右端π̄₁上划线丢失；F2: 定理导语𝓜(ℂp)→X_E^an箭头丢失；F2: (3)下标ℂ_p误读为C_l；F2: (4)显示式Π提取为\\prod；F2: (1)中Definition 4.1.1误读为4.l.l；F3: 空格丢失(ofan/ofDefinition/ofMochizuki/ofi/ofthe) 已登记(裁决批2队列——本页主张未入批1，待300dpi批裁) |
+| 43 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: (7.4.7)与Remark7.4.9首式Π提取为\\prod共2处；F2: (6)引文2021a,b,c,d]误读为202I...J(1→I、]→J)；F2: Teichmüller两处变音符疑丢失(标题可辨两点,存疑)；F3: (2,3)提取为上标；F3: arithmetic-geometric连字符丢失；F3: 空格丢失(ofDefinition/perfectoidfield/ofcharacteristic) 已登记(裁决批2队列——本页主张未入批1，待300dpi批裁) |
+| 44 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: §8.2中E′←K箭头方向被反转为E′→K；F2: 末段两处箭头完全丢失(E′与K间、𝓜(K)与Y_E′^an间)；F2: ℂ_p下标p误读为τ与≠共2处；F2: 复合态射末个𝒳与§8.2的G被加杂散dot共2处；F2: 两显示式共4处Ẑ(1)_K帽子丢失；F2: §8.2中𝕵(X,E)误读为\\mathfrak{F}(末段又作\\mathfrak{I}前后不一致)；F2存疑: 两显示式Π下标Y/E′;K疑被读为X/E′;K(需600dpi回图)；F3: E′写成HTML上标、K^{-}断行残影、Bloch and Kato后丢逗号 已裁决(300dpi)：Π下标Y/X存疑推翻——其余主张未裁维持原判 |
+| 45 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 4处箭头丢失(段首𝓜(ℂp)→X_E^an、Prop8.3.1的𝓜(K)→Y_E′^an、定理中E′↪K与𝓜(ℂp)→X_E^an)；F2: 3处Ẑ帽子丢失(段首H^i(G_E,Ẑ(1))与(8.3.2)式第1、3项)；F3: 编号错位——G↷式被标为(8.3.3)应为(8.3.2)，Π↦式的(8.3.3)标签丢失；F2: of Q_p-vector spaces中v写成\\nu；F3: has,for空格丢失；F2存疑: (8.3.2)与定理两处Π下标Y/E′;K疑被读为X/E′;K(需600dpi回图)；𝕵本页提取为\\mathfrak{I}与p43的\\mathfrak{J}不一致 已裁决(300dpi)：Π下标Y/X存疑推翻——其余主张未裁维持原判 |
+| 46 | Y | ✓ | ✗ | ⚠ | ✓ | ✓ | ✓ | FAIL | F2: Teichmüller变音符错乱5处(§9标题ü被丢且¨漂移到Space之后、正文4处¨错置于u前)；F2: §9.1两处𝔭提取为p(let 𝔭 denote与at 𝔭处,而L_𝔭处正确)；F3: Let S与choice ofS的𝒮花体丢失；F3: L_𝔭前杂散\\:；存疑: §8.5导语structure单复数无法分辨(需600dpi回图) 已裁决(300dpi)：structure单复数存疑推翻——其余主张未裁维持原判 |
+| 47 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 𝕵被提取为\\Im共6处(Similar definition段与§9.2段)；F2: 𝔭→p共3处(段首at p、(1)中If p、where p runs)；F2: Teichmüller变音符错乱4处(Teichm ¨uller×3、Teichmuller×1)；F3: 杂散¨漂移到associated to之后；F3: §9.2(resp.…)闭括号丢失；F3: offundamental/ofL空格丢失 已登记(裁决批2队列——本页主张未入批1，待300dpi批裁) |
+| 48 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 𝕵̃/𝕵被提取为\\Im共3处(tilde一并丢失)；F2: X^♦_L下标v误读为τ；F2: beware句L_v被写为L\\mathfrak{v}(𝔳)；F3: X^an嵌套拍平为L{v}；F2存疑: 底点*_{(K_v,K_v^♭≃F_v^♭)}末个♭原图存疑(需600dpi回图)；F2: §10.1引文误读为202I...J且isfound粘连；F2: Teichmüller变音符错乱5处(¨×4错置、标题¨漂移到Theory前)；F3: non-archimdean拼写存疑(需600dpi回图)；F3: 两处]被吞入\\mathrm{} 已裁决(300dpi)：♭末项/non-archimdean存疑推翻——其余主张未裁维持原判 |
+| 49 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 显示式Π提取为\\prod(∏)；F2: 句中第二个𝕵(X,E)误读为\\mathfrak{F}(第一个正确)；F3: 两处引文]被吞入\\mathrm{}；存疑: Corllary 3.12拼写疑为原文笔误或提取丢o(需600dpi回图)；其余忠实(the the双重冠词与原文笔误一致) 已裁决(300dpi)：Corllory拼写存疑推翻——其余主张未裁维持原判 |
+| 50 | Y | ✓ | ⚠ | ⚠ | ✓ | ✓ | ⚠ | UNRESOLVED | F2存疑x2: (i)1+𝔪_𝒪ℂp⊂𝒪*_ℂ处下标提取为v疑应为p(p/v无法分辨,上下文强烈指p)；(ii)x∈𝔾?_m(𝒪̄_ℂp)处重音符提取为hat疑应为tilde(𝔾̃与𝔾̂对象不同,波浪/尖角无法分辨)——两项均需600dpi回图,归级取决于此(WARN或FAIL)；F3: 精确列第三项与x∈项两处ℂ退化为普通C；F3: Lemma首词𝒢退化为普通G；F3: 杂散句点(ℤ_p.-modules与ℚ_p.-Banach)；F5: Proof句末□ tombstone丢失；其余忠实((10.6.1)(10.6.2)(10.7.1)精确序列与log公式逐符号无误) 已裁决(300dpi)：成立4/不成立1——hat/tilde存疑推翻；v→p/ℂ退化×2/□丢失成立 |
+
+[审计-P041-050] DONE | p41-p50 | PASS 0 / WARN 1 / FAIL 8 / UNRESOLVED 1 | 需600dpi回图项 8
+SUGGEST: 建议对公式密集页改用200dpi渲染(或对公式区出2x局部裁剪)——100dpi下p/l/τ、Y/X、tilde/hat等小字号记号无法分辨,本区间8项存疑多数源于此,且提取器的系统性缺陷(Π→∏、𝕵→\Im/\mathfrak{F}漂移、Ẑ帽丢、箭头丢、Teichmüller变音符错乱)值得在编排者层做一次跨页清单化汇总

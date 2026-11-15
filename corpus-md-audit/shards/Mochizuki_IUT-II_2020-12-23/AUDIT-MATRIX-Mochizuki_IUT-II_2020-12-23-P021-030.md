@@ -1,0 +1,14 @@
+# AUDIT-MATRIX-Mochizuki_IUT-II_2020-12-23-P021-030.md — Mochizuki_IUT-II_2020-12-23 p21-p30
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 21 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 全页M^⊠系统性误读为M^Θ或M^⊖（同字形两种猜测混用约30处）；covering引号被误读为fraktur字母a/n；两组display末项双下划线X拍平为单下划线（需600dpi回图确认）；页眉TEICHMULLER后多出游离上标杂点 已登记(待裁决批7) 已裁决(批8) |
+| 22 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 全页⊠误读为Θ/⊖；prose中Π_X̲̲双下划线拍平为单下划线并加杂点；quotient行Π̲_Y^⊠丢下划线且商箭头丢失；引号内表达式整体乱码（引号成点号、Π̲̲成scriptsize II）；⊆尾项重复乱码；β^{-1}后多出假上标dag；F1: which is isomorphic丢词is 已登记(待裁决批7) |
+| 23 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 全页⊠误读Θ/⊖延续；两处M多出假ring重音；Δ_C多假bar；ℓ写成斜体l且×±乱码为grave+rtimes；两处Π̲_Y丢下划线；一处⋊丢失；natural quotient行Π_C被加撇号并重复、G前箭头丢失；F1: difference丢f成diference；inclusion两下标字形存疑（提取Δ̲_X⊆Δ̲_X自含式，疑原文Y̲⊆Y）需600dpi回图 已登记(待裁决批7) 已裁决(批8) |
+| 24 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1: ff连字系统性丢失共4处（difference/differences/differ读成difer类，命中校准规则同类≥3即✗）；F2: 全页⊠误读Θ/⊖；twisted homomorphism链末箭头丢失；引号乱码成66与fraktur s共2处；𝔽_ℓ^{×±}三处×乱码或丢失且ℓ写成l；两处Δ_C多假bar、两处prose Δ̲_X丢下划线；quotient行↠拍平丢失；[]写成()；Proposition 1.4(iii)疑被读成(ii)需600dpi回图 已登记(待裁决批7) 已裁决(批8) |
+| 25 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1: ff连字丢失2处（diference/afairs）；断行连字符被读成汉字"二"混入英文正文；F2: 全页⊠误读Θ/⊖；quotient行↠丢失、Δ̲_X丢下划线、Δ_C与M^⊠假dot/hat多处、ℓ写成l；"(1/ℓ)"闭引号乱码成Ω；μ_N开引号丢失加假ddot；≃→拍平为tilde→；"C"引号乱码为C^r；𝔽̲̲^temp_{v,G}丢temp上标且逗号变并列；B^temp误读为B^iemp且Π̲̲拍平；X̲̲_k的k上标点疑丢失需600dpi回图 已登记(待裁决批7) 已裁决(批8) |
+| 26 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 全页⊠误读Θ/⊖；cf.两处乱码（int cf.与fcf.）；四处引号乱码成cdots/because/fraktur/单引号；mu下标Ẑ同页三种猜法（N、Û、正确各一处）；假bar/overrightarrow/dot/hat修饰多处；M^⊠(C)↦Π̲_X(M^⊠(Ĉ))多右括号且该处Π̲_X丢下划线；mu_Ẑ(G_k)≃→mu_Ẑ(Π_X)丢to箭头；[AbsTopIII]一处丢方括号并断行拆词；F1: Proof末QED方框丢失；display标签(*mono-Θ)/(*bs-Gal)保留完好 已登记(待裁决批7) |
+| 27 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: Y下标记号四种渲染互不一致（ddot/双下划线/混合，需600dpi回图）；tempered covering引号内Y̲̲^″整体丢失成点号；theta双下划线三处拍平或丢失；[cf.]乱码3处（int cf.x2、/cf.x1）；引号乱码5处（Sigma64、4cdot、because、Phi66/75、66/33）；X̲_k一处误读为Δ_k；假ddot一处；F1: QED方框两处丢失；F3: é拆成´e两处、标题后杂sup´ 已登记(待裁决批7) 已裁决(批8) |
+| 28 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 全页Y记号四类猜测并存（ddot/单下划线/双下划线/无，≥10处互不一致需600dpi回图）；单下划线膨胀为双下划线4处、双下划线拍平3处；X̲_k误读为Δ_k共2处；(mu_-)下标一处误读为Sigma、一处误读为Delta；ι^l_Ỹ̈的ι丢失2处、上标l丢失2处含display；element∈读出幻影t；Δ^tp误读为ip；假overline/dot/堆叠乱码多处；varunderline破损宏1处；多余逗号1处；F1: 1处丢句号 已登记(待裁决批7) 已裁决(批8) |
+| 29 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 全页⊠误读Θ/⊖；[cf.→/cf.乱码3处；假overline两处（M^⊠_M'与M_*^⊠）；quotient行Π̲_X↠G双头箭头拍平为→；M'丢撇号一处（M divides M'读成M ,）；display后]误读为biglfloor；theta_env与Π_Y下标记号存疑需600dpi（与p27/28同类）；F3: é拆´e一处 已登记(待裁决批7) |
+| 30 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 全页⊠误读Θ/⊖；[EtTh]§5节号严重乱码（读成bar9bar2）；theta_env同页双/单下划线互不一致3处；Π_Y三种渲染并存（三重下划线+ddot/underline+ddot/裸ddot）；l·Ẑ̂多出假下划线、l·Z̲下划线存疑需600dpi；[cf.→int cf.一处；F1: QED方框丢失、ff连字丢失一处（efect）；F3: é拆´e一处 已登记(待裁决批7) |

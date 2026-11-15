@@ -1,0 +1,14 @@
+# AUDIT-MATRIX-Mochizuki_2024-03-24_EssentialLogicalStructure-P031-040.md — Mochizuki_2024-03-24_EssentialLogicalStructure p31-p40
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 31 | Y | ⚠ | ✗ | ✓ | ✓ | ✓ | ✓ | FAIL | F2: ff连字丢失≥3处（efects×2、afairs）；§符号丢失≥5处（1.8/1.3/1.5/1.12/1.5）；Teichmüller拆为u+¨（含页眉）；两个·列表项拍平为段落 已登记(待裁决批6) |
+| 32 | Y | ✗ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F3: p31末句续行被误标为##假标题；F2: 逻辑符号丢失×3（AND后∧丢、OR后∨丢、XOR引号内仅余˙，需600dpi回图）；F2: §丢≥4处（1.8/2.3/2.4/3.5及标题1.11）；·列表项拍平 已登记(待裁决批6) 已裁决(批6)：存疑项经300dpi半页裁决(41成立/55不成立/0看不清全批合计)，本页明细见裁决批6裁决书(run dwfrun-50ed1948) |
+| 33 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: §丢13处（3.1/3.5/3.10等）；F2: 回引标签(InmCmn2)被误读为(InnCnn2)×2（原图第3/5位为宽形m）；F3: theta function后整句[cf...]被串成sup上标链；F2: logical AND后∧再丢；·列表拍平；需600dpi回图：(MthVI/MthVl)之I/l不辨 已登记(待裁决批6) 已裁决(批6)：存疑项经300dpi半页裁决(41成立/55不成立/0看不清全批合计)，本页明细见裁决批6裁决书(run dwfrun-50ed1948) |
+| 34 | Y | ⚠ | ✗ | ✓ | ✓ | ✓ | ✓ | FAIL | F2: §丢5处（1.8/1.10/1.2/1.3/1.10，标题1.12亦丢§）；F2: verification撕裂为verifi cation；F2: CmpVer内inter-universal连字符丢成interuniversal；·列表拍平×4 已登记(待裁决批6) |
+| 35 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 行内引号逻辑符号丢失×6（AND后∧、OR后∨、negation后¬各×2）；显示公式结构完整（下标/撇号/⟹/⋮均在）；F2: §丢4处；F2: ff连字丢×2（suficiently/suficient）；´etale与Teichmüller拆字；需600dpi回图：公式内∨是否带点（提取作dot-vee）、引文IUTch-IV是否多一个I（提取作IUTchI-IV） 已登记(待裁决批6) 已裁决(批6)：存疑项经300dpi半页裁决(41成立/55不成立/0看不清全批合计)，本页明细见裁决批6裁决书(run dwfrun-50ed1948) |
+| 36 | Y | ⚠ | ✗ | ✓ | ✓ | ✓ | ⚠ | FAIL | F2: 标签(ExpILS)误读为(ExplLS)、(MthVITh)误读为(MthVlTh)（大写I被转小写l，与p33同一系统性误读，需600dpi回图确认）；F2: §丢4处；F2: (RfsDlg)/(DngPrc)句末句点丢×2；F2: eforts丢ff；F3: 断行连字符保留成pre-cisely 已登记(待裁决批6) 已裁决(批6)：存疑项经300dpi半页裁决(41成立/55不成立/0看不清全批合计)，本页明细见裁决批6裁决书(run dwfrun-50ed1948) |
+| 37 | Y | ✗ | ✗ | ✓ | ✓ | ✓ | ✓ | FAIL | F3: Conversely,被误标为##假标题（承接段落非标题）；F2: ff连字丢×4（suficient/efect/efort/diference）；F2: egregious被插入多余r成egregrious；F2: §丢8处；F2: interuniversal连字符丢；需600dpi回图：引文IUTch-IV是否多一个I（同p35待裁项） 已登记(待裁决批6) 已裁决(批6)：存疑项经300dpi半页裁决(41成立/55不成立/0看不清全批合计)，本页明细见裁决批6裁决书(run dwfrun-50ed1948) |
+| 38 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 捏造公式——原文引号词fruits被提取成sqrt[6]带fruits的三次方（六次根号幻觉）；F2: 一处黑板体Q拍平为普通Q（另一处mathbb Q正确，前后不一致）；F2: §丢1处且1.5后被插入多余感叹号；F5: u平方加v平方=1后句点丢；两个显示公式与行内替换完全忠实；·列表拍平×3 已登记(待裁决批6) |
+| 39 | Y | ⚠ | ✗ | ⚠ | ✓ | ✓ | ✓ | FAIL | F2: adélic尖音符被翻转成钝音符adèlic；F2: 引号不等于0被提取成上标66/9乱码；F2: ff丢×2（suficiently/diferential）；Teichmüller拆字≥3；顶部公式链与Basel求和忠实（分母v经数学自洽核验）；需600dpi回图：行内u平方+v平方=1加号是否带点（提取作dot+，p38同式无点）、引文IUTch-IV多I与否（同p35/p37待裁项） 已登记(待裁决批6) 已裁决(批6)：存疑项经300dpi半页裁决(41成立/55不成立/0看不清全批合计)，本页明细见裁决批6裁决书(run dwfrun-50ed1948) |
+| 40 | Y | ⚠ | ✗ | ✓ | ✓ | ✓ | ✓ | FAIL | F2: 尖音符系统性翻转成钝音符（adeles/ideles/adelic/adelization共6+处成grave形式，原图为上升的é）；F2: §丢5处（3.3/1.5/3.8/1.5等）；F2: wellknown真连字符丢；F3: pre-cisely断行连字符又保留；´etale拆字；Euler–Poisson长划变短横；四个AAA标签条目完整 已登记(待裁决批6) |

@@ -1,0 +1,14 @@
+# AUDIT-MATRIX-Yamashita_2018-07-13_AProofOfABCafterMochizuki_405pp-P031-040.md — Yamashita_2018-07-13_AProofOfABCafterMochizuki_405pp p31-p40
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 31 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: W定义式两处 v_Q 下标误作 v_∩；(Indet→) 箭头丢失、(Indet↶) 后右括号误作 ∏；μ_{(Fmod).} 下标 v 丢失；Θ 下划线单/双/无三种混用需600dpi回图；行内∑下标错位插入正文致 notation 乱码；Steps(v)(vi)(vii) 间混入R 已登记(待裁决批11) 已裁决(批12) |
+| 32 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2/F3: 行内 Now 公式行碎成 HTML sub/sup 片段且乱序、µ^log 丢上标 log；w∈𝕍(K) 疑丢下标 _v 需600dpi回图；两处 [K_{v̲}:...] 冒号被吞进下标括号范围；which calculates 句整短语被包成 sup 标签、v_ℚ 下标拍平；𝔰^≤ 与底部 µ_{K_{v_i}} 下划线多/少存疑需600dpi回图 已登记(待裁决批11) 已裁决(批13) |
+| 33 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1: 页首延续公式行（μ^log_ℚ(𝔰^ℚ)/(j+1)+4µ^log(𝔰^≤)log(d*l)) is equal to）整行丢失；F2: v_ℚ 误作 v_Ω 一处、inline log(𝔣^{Ftpd}) 两处 𝔣 误作积分号∫；K_{v̲} 下划线丢失一处；𝔰^≤_{v_ℚ} 展示式2-5行疑似多出 bar 需600dpi回图；两处 [K_{v̲}:...] 括号范围被吞；w∈𝕍(K)_v 碎成 .〈sub〉v〈/sub〉；lo𝔤 词内 g 误作 fraktur 已登记(待裁决批11) 已裁决(批13) |
+| 34 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F5/F2: 首公式混入伪 otherwise+𝔞_w∈𝔤^L；𝔡_w→∂_w、ι_{𝔣^L,w}→ι_{↑^L,w}、𝔣^{Ftpd}→𝔣^{1/tpd}、Σ_{v_ℚ∈𝕍_ℚ}→v_𝕆∈𝕍_𝕆（ℚ→𝕆×2）、𝔰→斜体s×2 均误读；伪 \dot F、伪 \bar v 需600dpi回图；If 条件与框式公式被误读成大竖线对；散文混入孤立∑×2、cardinality 断成 cardinalit〈sub〉y〈/sub〉 已登记(待裁决批11) 已裁决(批13) |
+| 35 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2/F3: 2log l+74 行尾 η_prm 被替换为伪数值 2.756l+2².3.56l+(4/9)(l+3.56) 且 η_prm 错位到数组外；Since 4+8d_mod 行分式塌陷≥4处（1+4/l→1+⁴×2、8·log l/l→8^log^l、8·½→8^1₂）；then for any 行 Θ̲/q̲ 下划线丢失；2.74 与 2^{2.74} 上下标归属存疑需600dpi回图 已登记(待裁决批11) 已裁决(批13) |
+| 36 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: ℚ̄→ℚ 顶线丢失（代数闭包误成ℚ）；φ₂→φ 丢下标；ω_ℰ→ωε 且 ℰ→E；⊕_{complex:v∈𝕍(F)^arc} 下标碎裂混入伪 Ω；[F_v:ℝ] 一处碎裂；上标 Falting 疑被截为 Falt 需600dpi回图；ht^Falt(E) 碎成游离展示块；页首□丢失；diferentials 单双f存疑需600dpi回图；Svalued 丢连字符 已登记(待裁决批11) 已裁决(批13) |
+| 37 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: (2)标题 ht^{Falt}([E,α]) 误作 xt^{Falt}（h→x）；[E,α] 误作 [Ẽ,α] 多伪tilde；ℰ̄→E×2、ω_{ℰ̄}→ω_{ε̄}×3（花体E误作epsilon）；between→betwen；Falting 上标疑截为 Falt 需600dpi回图；行尾逗号误作全角'，'；equipping 断成 equip ping 已登记(待裁决批11) 已裁决(批13) |
+| 38 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2/F5: dz̄_v 与 Ē_v 共轭顶线两处丢失；∐ 符号碎成 IIII；l∤v(q_{E,v}) 误作 l†v{v}(q)；一处 ht^{Falting} 碎成 h,Falt；𝕡¹→p1×2；伪∑×3、伪∏×1、反引号×1；ω_ℰ→ωε；ℰ̄→ε̄；[F:ℚ] 两处碎成 [F·ℚ]（冒号→·）；Falting 上标疑截为 Falt 需600dpi回图；conjugates/logarithmic/By 碎成带sub标签 已登记(待裁决批11) 已裁决(批13) |
+| 39 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: (may depend on ε, however) 处 ε 丢失；不等式链尾提取多出 ≤α/2. 且 C_ε 前疑缺 +log l 需600dpi回图；normaised 疑丢l、efictive（ffe→fi）、suficiently（ff连字丢失，与p36/p38同型）；arcihmedean 与 Corolarry 拼写是否原文如此需600dpi回图；𝔮^{↑2} 与 𝔮^{†2} 上下标区分需600dpi回图；正文 𝒦→K、ℚ→Q 样式丢失 已登记(待裁决批11) 已裁决(批13) |
+| 40 | Y | ✓ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: 集合构造 #Aut_{ℚ̄}(E) 的 # 误作 ≠；下标 𝒦 多处误作 κ（另几处 𝒦 正确，提取自相矛盾）；有限集 𝔈𝔯𝔠 误作 𝔈𝔵𝔠/𝔈𝔵 两种形态混用；Lemma 1.7 (2),(3) 数字误作 (𝒬),(𝟥)；SL₂(𝔽_l).) 的右括号误作 ȷ；框式条件 [−∣log(q̲)∣≤−∣log(Θ̲)∣] 被读成大竖线对；首处 q̲/Θ̲ 下划线丢失；U(ℚ̄)^{≤d} 疑多出横杠、E_F[3.5] 点/逗号、⊇/⊃ 均需600dpi回图 已登记(待裁决批11) 已裁决(批13) |

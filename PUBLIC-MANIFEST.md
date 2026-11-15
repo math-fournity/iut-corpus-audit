@@ -1,0 +1,74 @@
+# PUBLIC-MANIFEST — 审计对象文献清单（自取原文并对齐版本）
+
+本仓库**不分发论文原文**。请按源 URL 自行获取 PDF，用 sha256 校验对齐后即可对照本仓库的审计矩阵使用/复现。
+
+| 文档 | sha256 | 源 URL |
+|---|---|---|
+| Dimitrov_2016-01_effectiveABC_arXiv1601.03572 | `2f8ebe5a5449beb59148264714e76ad9ff7d238ab8082e0d54997e2d0d90e90d` | https://arxiv.org/pdf/1601.03572 |
+| Fesenko_2015-12_OxfordIUTWorkshop | `97288118d6c6d26414a95368efec935fc316cc4e089aa4cd95f8434d650fb597` | https://sites.arizona.edu/kirti-joshi/ |
+| Fesenko_GuidesOnIUT | `a5811c6d9bcdf0d7fabc1d6327373dd1bc0d3c17a10af83624a1bfaf085166d1` | https://sites.arizona.edu/kirti-joshi/ |
+| Fesenko_NotesOnIUT | `6131936b39a5a41e7b3c5ab259efe480e38b6451cdaef01c22bebaef279ecc1d` | https://sites.arizona.edu/kirti-joshi/ |
+| Joshi_2020-10_UntiltsLabeledIsomorphs_arXiv2010.05748 | `0b08a1b6dffc4734d17d826be9e56e3ac39cafe2b6a9557e91622faa1b5f6a55` | https://arxiv.org/pdf/2010.05748 |
+| Joshi_2021-06_ATS-I_arXiv2106.11452 | `aa7aaa415da34886d67c3726dc93eb34e4420bf7bd918e08c51c5191daa978c5` | https://arxiv.org/pdf/2106.11452 |
+| Joshi_2021-11_ATS-II-towardsDiophantineEstimates_arXiv2111.04890 | `a7e8f7f03b3f1f301a0fb508a3c6a9f86b6bacab9c5e5ccb13327484d3159915` | https://arxiv.org/pdf/2111.04890 |
+| Joshi_2021-11_CommentsOnATS_arXiv2111.06771 | `83b510a8fae39c76261e1fd65390ff586f907b108797062c4b4e4b3d4a43783e` | https://arxiv.org/pdf/2111.06771 |
+| Joshi_2023-03_ATS-II-localPrototype_arXiv2303.01662 | `a25e58456673d905f6be328773926ec8a5dbb419fe278ca478827f163ccdf4af` | https://arxiv.org/pdf/2303.01662 |
+| Joshi_2023-05_ATS-IIhalf-Deformations_arXiv2305.10398 | `6fd09e29096eeafc52589f6ef3f06dee2f944614c116ef9892316c2b4e3c74c0` | https://arxiv.org/pdf/2305.10398 |
+| Joshi_2024-01_ATS-III-RosettaStone_arXiv2401.13508 | `86a92ca893e774e1ea591ed9825a30627f3f19d8df0b26b7f5855dc0923f0429` | https://arxiv.org/pdf/2401.13508 |
+| Joshi_2024-03_ATS-IV-ProofOfABC_arXiv2403.10430 | `ef8851fe656c705f7e9881778b4dd0c592c9f35a2980be6a335412a15542547a` | https://arxiv.org/pdf/2403.10430 |
+| Joshi_2025-05_FinalReport_arXiv2505.10568 | `8594bb5218dbc778c6d61cf362589d61509c6c43693091cc95beb1ee93aedac8` | https://arxiv.org/pdf/2505.10568 |
+| Joshi_2025-11_FinalReport-ArizonaMirror | `7a6d933d781d098e3392b0ce27dbdf2b0749368cf8c27422092038d70712f48f` | https://sites.arizona.edu/kirti-joshi/ |
+| Joshi_2025-11_ResponseToGrouchyExpert | `7d8c0bfafac13305be4f177ea27eff7e1c41e4c3425900a82b757466cb3f39ad` | https://sites.arizona.edu/kirti-joshi/ |
+| Joshi_2025-11_TeichmullerQuest | `8be6f217657fd24be1fd28f6d0db5312573540549fa1f9a1ebe2440fae528976` | https://sites.arizona.edu/kirti-joshi/ |
+| Joshi_2026-05_LetterToKato | `87a3e72ca5b9c5b1ce8c5906821028db7e3c1e0d7ad203c44fa10a5a09fa04eb` | https://sites.arizona.edu/kirti-joshi/ |
+| Joshi_2026-05_MochizukiFAQ | `1c457be3c2b7dfc0b5b829d6b8bf484e899f3f89ede938f0925a4fabe03ba422` | https://sites.arizona.edu/kirti-joshi/ |
+| Joshi_2026-07_CommentsOnLANAProjectReport | `04001467c3541f4b5eb1121a8d97e459fc5ad41c48a5f743ca9eefd9077a8854` | https://sites.arizona.edu/kirti-joshi/ |
+| Joshi_LetterFromJoshi-hostedByWoit | `0d78a6548c234ecc5a0f1a0ee149611e1cfb0744fe2851fb58648f1b128b9802` | https://sites.arizona.edu/kirti-joshi/ |
+| LANA_2026-07_InterimReport_KatoEtAl | `aa53093aa8d69dbce5f8fb4f541069a418650260dee1ef532917aa8db89606c7` | https://sites.arizona.edu/kirti-joshi/ |
+| Minamide_ExplicitEstimates-in-progress | `09c4b31e63e824f410a5b6dda3c41aedf5385ccd51828fd4d15797e38b245f44` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki-camp_2013-12_IUTeichVerificationReport | `173d8419dfab56e12fca57383ea0485a378ccc6fa28eebe42ab63f6f1d853612` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki-camp_2014-12_IUTeichVerificationReport | `2326cae31276d017a27b801d03bc15949144b61a10d62c88de0b3bc95dd489ca` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2013-08-20_PanoramicOverview | `eb42575f73d69d1f28e949eb9e52593dd17d1b85c15cc8b44fdfd12ae86b708b` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2015-03_IUTeichProgram-EN | `40f7f3d4adbd782bcadc125d4312d935d78f7f63e3005d1b4b9f0a90097536ab` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2016-01-12_BogomolovSzpiroFromIUT | `c6055d416c11a251ea2f6d1910b0902fac7c24873e15a3c1115c75ce426c30cd` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2018-05_Cmt2018-05 | `d71c38308322bdb403b11c6f450f8f67797600c5c9ac7c28505c8d1c43c1f53b` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2018-08_Cmt2018-08 | `2fbd8deb2ca54c728191970bd5a06b81fe12bb68e656a8c684ad6bda86d83e6d` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2018_Rpt2018 | `582e3f60e9461c127617844d92440dd60720ee9291da3a693270bcf195221882` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2020-11_ClassicalRootsOfIUT | `d5f3952a30819e169e334d578b25a82ce49038cdb707ed73b9bb24d44416066f` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2020-12-23_AlienCopiesGaussians | `b2510b7276ab08f9f758e283200a4fc87205d2439d6d9b75afe8df6ccb182d1e` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2022-05-18_ExplicitEstimates | `4cacce3f1085c4f58d6bf66c25f8e7c8c6344e6c3811f89ac43df1e5f31d2d64` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2023-08_BriefReportOnSituation | `d7fcf6afc1e29b7ccf114a9eed0bae9bcf296220ae7b143ac6600ae1ec6763f4` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2023-10-20_AnabelianGateway_MFO-RIMS23 | `d0802379d20cc9f57a4055f01ff7a1492361b67e2497029a34b2959f22784a77` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2024-03-24_EssentialLogicalStructure | `c0e63b629aa174aa065e93d08defe3e5d0837c8778aab527383798baf8ca6e32` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2024-03_ReportOnCertainPreprints-Joshi | `f6636e2c6b48745be95eaab5435416c88445ff963afc27ebe2470fe9c80db9f7` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2024-04_IUTInnovatorPrizeAnnouncement-EN | `afa55f47974284b16156721b2c295b62153ffe24581c5c67aa259cbd33df135d` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2024_AnabelianGateway_IUGC2024 | `8a041c9066e3ce65177f1dbb78dfd17b957bfc14d9a254ff8ee5d125c4ad1044` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2025-10_IUT-report | `af3562a010f9cc370b7cb5683975075a8afcefd6e80684067e089161afc62f05` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2025_AnabelianGateway_IUTSummit2025 | `c8f8fcc72e22f84047ebda3ced11f88ec1fe0ed00ec10e03a29e88e307c10755` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_2026-04_FormalizationOfIUT | `9a32b2485b5875574d7470256d3414b88ee6ac3ed8a39a82ea7332e25072ee9c` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_Bogomolov_comments | `0ca004e4a4210f701ee85586153555c18c4bd0d0095e0abd648a8472234d32c2` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_CombinatorialSectionConjectureAndPop-Stix | `99c6cc6968b5286be6d4421af76afc41b55997c4872aa5ccf85f097ddd3cb378` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_CommentsOnValuations | `9a5f44a73d19aa0564a412f59e9393622560c22fc56772d3d2d3d3542891b4a0` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_FAQ-on-IUTeich | `cfe49e61e2d55b53a1fe29b7d2c7f0b936014be62abb42fac5a3682ae2546f56` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_FAQ-on-InterUniversality | `80e13331a31563655157b9b3e995eb2d249ea204f9f3dea8a9b9ea9e331d2133` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_GT-Theory-as-Teichmuller-Species | `53191534000a11db940d416263324e4bab004bb3e0b2232444706a2c3f0613c2` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_IUT-III_2020-05-18 | `9a7ee3c77b1c7717210c0613eb39b6844649d0040dc3d9e1be7d544f8f91a0b9` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_IUT-II_2020-12-23 | `180bfa6aaddc4ae37af37acaad51f61e0a47b33b8255ad3169e28a970ae39b7c` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_IUT-IV_2020-04-22 | `5bf4b1e0a8c2686562a6859e5009d301335044cfb5efec5d3a9edf764e4af87f` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_IUT-IV_comments | `15550dbfd94a2c6ad65fb64e874eb409e67d35ed9b4d44349e3cfb5c7042725e` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_IUT-I_2020-05-18 | `7360e3ed27c235b5497a0743d3ed1646fbb97688547d16b7c784fc7f127f1f03` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_InvitationToIUT | `b09f56c96a4a7a85236bf877175e577a6235dc955613b55ec6f8c02e88be189e` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_InvitationToIUT_LectureNoteVersion | `b1bc1ded2de25d16ea2722e82ace42bcca0dcbd476fea4c002998ec97a13e6bc` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_OnTermsAnabelioidFrobenioid | `bac6119db1e352d12aa3ff7a325b9420f796fa7cd562d5b3a621729bba443ecf` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_PanoramicOverview_comments | `0efc4f2f3d9705bd7ae46e039de11b63b76d136ecf89c298d010c6e576a20173` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_Pop-Stix-comments | `fa234642f8544c6d05351c945f8509b489a8cc1a0503029bd846933e48b3364c` | https://sites.arizona.edu/kirti-joshi/ |
+| Mochizuki_ResponsesToQuestionsOnFrobenioids | `2ee1b38c1f298d2021bd2e12f2831bdb1a7540bee661cb319418d414faeea50b` | https://sites.arizona.edu/kirti-joshi/ |
+| RIMS1935_summit-related | `b35e1ec3a88de2ba8f11b759b4ee174e73ba2469853e537a3aa0b36b8ed62bcb` | https://sites.arizona.edu/kirti-joshi/ |
+| RIMS1968_summit-related | `5b8ddced5e31c001d56f555606b7fd36be699685dfe49c9d37db62fe4237c5c8` | https://sites.arizona.edu/kirti-joshi/ |
+| SS2018-05_manuscript-asDistributed-2018-05 | `32c0f84f7ac317305b15df2b980e26135ce40e2acaf4b04a3d5a1a10cb66e6df` | https://sites.arizona.edu/kirti-joshi/ |
+| SS2018-08_manuscript-asDistributed-2018-08 | `072e3a29d54b645b54c15ccdae458b5c44413bef2ec97247a63e142e805173d9` | https://sites.arizona.edu/kirti-joshi/ |
+| ScholzeStix_2018-05_up2018-09_WhyABCisStillaConjecture | `4ec276246a2a92d2e211a0dae5afd073b5eae7e2b37e9bbabe3cb82c7e0b34a0` | https://www.math.uni-bonn.de/people/scholze/WhyABCisStillaConjecture.pdf |
+| Tan_IntroToIUT-slides | `b846b25897f084e4305d384f2518ae866148290fe45154610a1fb25f91a86e7c` | https://sites.arizona.edu/kirti-joshi/ |
+| Yamashita_2017_AProofOfABCafterMochizuki_v6 | `411efc10ad7319f52c607e19d322bdad5af771eb0b27b878e8490ab17d154929` | https://sites.arizona.edu/kirti-joshi/ |
+| Yamashita_2018-07-13_AProofOfABCafterMochizuki_405pp | `f0344f7e155eb2493466cf90c708d7248275a5db8ae77b096fb19e39fe07f312` | https://sites.arizona.edu/kirti-joshi/ |
+| Yamashita_2018-11_KeioSlides-id-version | `ce634936f8d529085bbb2f459ac5a865cdb441f4238ef7d407193054b421818a` | https://sites.arizona.edu/kirti-joshi/ |

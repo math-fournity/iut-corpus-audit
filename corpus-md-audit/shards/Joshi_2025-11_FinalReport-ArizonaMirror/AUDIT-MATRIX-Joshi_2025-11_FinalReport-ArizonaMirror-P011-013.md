@@ -1,0 +1,7 @@
+# AUDIT-MATRIX-Joshi_2025-11_FinalReport-ArizonaMirror-P011-013.md — Joshi_2025-11_FinalReport-ArizonaMirror p11-p13
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 11 | Y | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ | FAIL | F2: 重音符漂移8处（Amorós→Amoros+´漂至fibrations后、André→Andre+´漂至公式前、fibrés→fibres、théorie断成th´ eorie、Hodge后多´、Astérisque→Asterisque ´）；F2: 2023c URL波浪号丢失（math.arizona.edu/~kirti→/ kirti）；F3: 公式与正文缺空格1处、期刊名斜体丢失；存疑 需600dpi回图：2023a arXiv号第4位（提取2305 图似2303）、2022条目 Unitls/Untilts 字序 已登记(待裁决批4) 已裁决(批4)：存疑项经300dpi半页裁决(65成立/40不成立/0看不清全批合计)，本页明细见裁决批4裁决书(run dwfrun-f0c933df) |
+| 12 | Y | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ | FAIL | F2: Lepage条重音符漂移5处（Géométrie/anabélienne/tempérée变音符脱落+´漂移，含漂至URL后成URL´）；F2: 1999条 Teichmüller 变音符脱落漂至theory后（提取成theory¨）＋ofp-adic空格丢失；F2: URL波浪号丢失3处（1997与2018条 motizuki 前）；1997 URL断行处注入空格（Grothendieck% 20Conjecture）；F3: (2020 version)粗体丢失；存疑 需600dpi回图：Unitls/Untilts 字序（与p11同词） 已登记(待裁决批4) 已裁决(批4)：存疑项经300dpi半页裁决(65成立/40不成立/0看不清全批合计)，本页明细见裁决批4裁决书(run dwfrun-f0c933df) |
+| 13 | Y | ✓ | ✗ | ✓ | ✓ | ✓ | ✓ | FAIL | F2: Saïdi→Sa¨ıdi（变音符脱离）；F2: Études→Etudes+´漂至Sci.后（sup标签）；F2: Étale→Etale＋ofDiamonds空格丢失＋´漂至Diamonds后；F2: Teichmüller 变音符漂至IV.后；F2: zbMATH→zbMath 大小写改变；F2: URL波浪号丢失3处（~motizuki/~woit）＋断行注入空格4处（Essential% 20Logical等）；地址块完整；存疑 需600dpi回图：Shinchi/Shinichi（Saïdi条提取少i）、WhyABCisStillA/a 大小写 已登记(待裁决批4) 已裁决(批4)：存疑项经300dpi半页裁决(65成立/40不成立/0看不清全批合计)，本页明细见裁决批4裁决书(run dwfrun-f0c933df) |

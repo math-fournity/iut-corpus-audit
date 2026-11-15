@@ -1,0 +1,16 @@
+# AUDIT-MATRIX-RIMS1968_summit-related-P111-120.md — RIMS1968_summit-related p111-p120
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 111 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: p111 上划线 k̄ 丢失 3 处（"k an algebraic closure"、"determined by k"、关键处 "Spec(k̄) is not coric" 误作 "Spec(k)" 语义反转）；"étale" 误作 "´etale" 4 处 已登记(待裁决批10) |
+| 112 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F5: 伪注入 "G<sub>k</sub>"（of G_{k_N} 后）与句尾伪 "2"；F2: "(Θ±ell NF)-Hodge" 两处连字符错位（一处入括号 "NF-"、一处误作下标 NF₋）；页眉 TEICHMÜLLER 拆作 TEICHMULLER+游离¨；展示行 "the field k is coric..." 误转 H2 标题；显示公式 \\mathbb{V} 字形与 ε 是否带下划线存疑——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+| 113 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: "up to ±1" 误作 "up to 1"（± 丢失，改变数学含义）；§ 符号丢失 ×6；"´etale" ×3；引号 误作 Ω^{66}/Ω^{,9} ×2；伪 \\ddot{Π}、伪 \\dot{s}(AbsTopI)、伪 "2" 注入；"(Θ±ell NF-)" 连字符入括号；C̲_{F_mod} 下划线丢失；Prop 2.3 (i)/(ii) 与 Spec(K) 箭头 ↠/→ 存疑——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+| 114 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F2: ↠ 箭头丢失 ×8（Π↠Γ、Π↠G、G↠Γ^Gal、NoSpl、Ker(·) ×4）；"Ker(G_{F_mod} )" 括号结构破坏；𝔽_i^×-symmetries 误作 "F⁻-symmetries"；NF 后双括号 ))；Γ^{Ga\\bar{l}}、[Al~bsTopI] 乱码；Teichmüller 拆作 Teichmuller+¨ ×2；边注 (NoSpl)/(NoSyn) 转行内；𝔽_i/𝔽_l、/{±1} 与 ⋊、Γ_{mod}/Γ^{Gal} 及 𝓕 上标存疑——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+| 115 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1: 丢 "as"（certain quotient 前）、"effect"→"efect"；F2: log-link 误作 lo_g-link+伪!、NF 后连字符误作句点、"(NF-)" 括号连字符错位 ×2、[AbsTopIII] §3→"I3"、§ 丢失 ×3、G_v/Π_v 下划线丢 ×2；短语 "applies the absolute anabelian algorithms...at each" 整段转上标 <sup>；边注 (LGIsl)/(SymIsl)/(SctNF) 转行内；"regarded as not as"、IUTchI/IUTchII ×3、Spec ↠/→、𝔽_i/𝔽_l 存疑——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+| 116 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ⚠ | FAIL | F1: 丢 "continuous"（surjection 前，改变论断）；F2: Gal(k̄/k) 误作 Gal(k/k)（上划线丢，bullet1 记号乱排）；伪 \\bar{𝒪} ×2；"N≥2:" 误作 "N≥2!"；伪句点 ×2；(Π↠G_k) 箭头丢+Gk；𝒪^{×μ} 与 𝒪^× 间符号丢 ×2；Π∩𝒪^▷ 误作 Π∼；· 丢 ×5；Teichmüller 拆分 ×2；𝒪^▷/□、↠/→ ×2 存疑——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+| 117 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F5: 引号 4 组误作上标 */66/9/𝔑/𝔓、"lim_N" 乱码为 L_Ψ^{{<<Ψ∣im}；F2: ℕ_{≥1} 误作 ℕ_{>1}；正文 log_{k̄}/Log_{k̄} 下标上划线丢 ×8；"different"→"diferent"；伪 "!" 与伪句点；展示行 "a single unified basepoint" 误转 H2；· 丢 ×4；两处显示公式完好——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+| 118 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F5: 引号 4 组误作上标（6ζ/3、66/5、𝔞/,𝔣、66/quote）；F2: lim_N 下标 N 丢 ×6（正文×4+显示×2）、Log_{k̄} 丢下标、log-link 误作 lo_g-link、"difficult"→"dificult"、ℕ_{≥1} 误作 ℕ_{>1}、"(iii-a)"→"(iii a)"；Teichmüller 拆分；necessity/necessary 存疑；边注 (ii-b)/(iii-a) 转行内——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+| 119 | Y | ⚠ | ⚠ | ✗ | ✓ | ✗ | ⚠ | FAIL | F5: (iii-a) 交换图整幅被替换为图片占位符 ![Image block](...) 且正文粘上垃圾 "λ1"，图内容在提取中不可读（图表 ✗ 同因）；F2: sufices/diferent 连字丢 ×2、"in k̄"→"in k"、F, 误作 F_;、伪双句点 J..、"(i-d)];" 误作 ","；log_{k̄} 上划线丢（下标 p/k̄ 存疑）；连字符误作长划——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+| 120 | Y | ⚠ | ⚠ | ✗ | ✓ | ✓ | ⚠ | FAIL | F5: 引号误作上标 ^{..}/^{;} ×4、"lim_N" 乱码为 "km"、"module" 断成 modu/le；F2: "assumption on I" 误作 "on l"（字母混淆）、"of k̄"→"of k"、Log_{k̄}→Log_k、伪上标点 ℤ_l^{·} 与 \\dot{K}、μ_{l^∞} 拍平为 μ_l ∞、"well-known"→"wellknown"；Teichmüller 拆分；ℚ_p ↠/→ 与 𝓛/L 存疑——需600dpi回图 已登记(待裁决批10) 已裁决(批10) |
+[审计-P111-120] DONE | p111-p120 | PASS 0 / WARN 0 / FAIL 10 / UNRESOLVED 0 | 需600dpi回图项 19
+SUGGEST: 建议编排者为含行内/显示公式的页同时提供公式区域 300dpi 裁剪（本分片 19 项存疑几乎全部源于 100dpi 下小字形——𝕐/𝕍、↠/→、I/l、≥/>、▷/□——不可辨，需二轮回图）；另提醒备注中引用乱码 token 前先过滤裸竖线（本分片 row_shape 曾被乱码 "|im" 撑破一次，已改写为 ∣ 修复）。

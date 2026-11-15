@@ -1,0 +1,17 @@
+# AUDIT-MATRIX-Mochizuki_IUT-I_2020-05-18-P051-060.md — Mochizuki_IUT-I_2020-05-18 p51-p60
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 51 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F2/F4: ①"special fiber of 𝒳"的 𝒳 整个丢失成空胞 ②quotients 公式被错排为 Ker(J↠Π_G^tp)（箭头被吞进 Ker 括号内）且下标 𝒢^J_* 误读为 𝒢^*_{,I} ③Π̂_X 两处帽子丢失成 Π_X ④"Π_X^tp-conjugates"丢下标 X ⑤v′ 误读成三撇 v‴ ⑥引号变 ^64/^66 垃圾记号且 γ 后多出分号 ⑦"decomposition groups of Π^tp_X"丢 of 已登记(待裁决批9) |
+| 52 | Y | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F1/F2/F3: ①Remark 2.5.1 列表 3 项变 2 项——图像的(ii)“[cf. also Remark 2.5.3…]”整段被并入(i)末尾、图像的(iii)被重编号为(ii) ②“present §2”丢§成“present 2” ③(T2)“semi-graph of anabelioids 𝒢”丢 𝒢 ④(T2) covering 公式 ℋ→𝒢 箭头丢失且公式后多游离“2” ⑤(T1)一处 Galois-countable 丢连字符 ⑥斜体改引号两处 ⑦“[very weak!]”多出的“!”存疑需600dpi回图 已登记(待裁决批9) 已裁决(批9) |
+| 53 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F2/F4: ①丢 5 个花体符号——T3 三处 𝒢、T5 的 𝒳、T6 的 𝒢 全部丢失成空胞 ②T6 花体 𝔅^temp(𝒢) 拍平为普通 B ③(ii)“§3”丢 § 成“3” ④E2“arithmetical fundamental group”被改成“arithmetic” ⑤“may be taken”被插入多余 to ⑥efects/Galoiscountable 两处连字或连字符丢失 ⑦nonabelian ℝ¹lim 的黑板体 ℝ 变普通 R ⑧E2 末引文 [AbsTop] 是否实为 [AbsTopI] 存疑需600dpi回图 已登记(待裁决批9) 已裁决(批9) |
+| 54 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F2/F3: ①“no effect”六处全写成“no efect”（ff 连字丢失，≥3 同类）②§ 符号七处全丢——E4 的§6、E5 的§4/§5、E6 的§1/§2、E7 的§3、末段§4 ③E8 引文损坏——[QuCnF]→[QuCnf]、[FrdIII]→[FrdII] 指向不同论文 ④E8“quasi-temperoids”被插括号成“[quasi-]temperoids” ⑤display 公式三处箭头 𝒢_e→ℋ_f→ℋ_w 全丢 ⑥φ_v 下标误读为 φ_b ⑦一处 [SemiAnbd] 断成 [Semi-Anbd] 已登记(待裁决批9) |
+| 55 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F2/F3/F4: ①“objects”断成“ob jects” ②(v)两处闭引号变上标匕首†、Aut(𝒢̃/𝒢) 一处引号变花体 a/n ③丢 2 个 𝒢——(vi)“Suppose that 𝒢 is as in”、(O1)“Suppose that 𝒢 is finite”均空胞 ④“the quotient Aut( )”参数 𝒢̃/𝒢 整个丢失成空括号 ⑤(c_new)标签 new 上标化、“H on 𝔾”花体 𝔾 变普通 G、Aut(𝔾[c]) 花体变斜体、H→Aut 箭头丢失 ⑥𝒢 上多出下标冒号、覆盖集后多出游离句点 ⑦覆盖记号图像为 𝒢′/𝔾* 提取为 𝒢^i/𝔾^i 存疑需600dpi回图 已登记(待裁决批9) 已裁决(批9) |
+| 56 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F2/F3: ①“lifts”被卷进数学环境成乱码 lfts ②“suffices”丢 ff ③Thm2.6 括注“[i.e., a…”开括号变 Ω 垃圾、闭括号变“/”；“[cf., e.g.,”变乱码、闭“]”变 J_i 垃圾 ④花体 𝔾 三处拍平——Aut(𝒢[c])、“vertices of G”、“edges of G” ⑤两处闭引号变数学双撇 ⑥“δ∈F. If”句点变逗号、“of 𝔾.”多句点、(c_new)(d_new)标签上标化 ⑦更正：本页引文 [Config] 复核图像后确认一致，此前 ConfFa 判读系 fi 连字误读，已撤销该项 已登记(待裁决批9) |
+| 57 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F2/F3: ①F̄ 上横线三处丢失——证明两处“element of F̄”变 F₍;₎/F₍.₎ 下标垃圾、Remark 2.6.1 的 F̄=γ⁻¹Fγ 左侧变粗体 F（该注记数学内容正系于此横线）②(v)同构符号 ≅ 底部箭头丢失只剩悬空波浪 ③T̂ 上多出游离点、“projecting to G^ab”多出帽子成 Ĝ^ab ④(iii)“of G₁”的 of 被卷进数学环境 ⑤句点/逗号丢失四处（Ĥ_G 后、Ĥ_y 后、段末句点、○ 结束记号丢失）⑥斜体粗体全丢 已登记(待裁决批9) |
+| 58 | Y | ✓ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F2/F3: ①(vi)“centralizer Z_Ĝ(N̂) of N̂ in Ĝ”第二个 N̂ 帽子丢失成 N ②(iii)“natural homomorphism G₁^ab → G₀^ab”箭头丢失 ③G₀ 上多出游离点成 Ġ₀ 且含空数学垃圾 ④“suffices”丢 ff；“y,”与“j=1,2,…,”两处双逗号 ⑤两处句点丢失——(0,0) 后、(vii) 段末 ⑥(vi)“of Ĝ”的 of 被卷进数学环境 ⑦[St] 被提取为 [Stl]，100dpi 无法分辨 t 后是否多 l 存疑需600dpi回图 已登记(待裁决批9) 已裁决(批9) |
+| 59 | Y | ⚠ | ✗ | ✗ | ✓ | ✓ | ✗ | FAIL | F2/F3/F4: ①系统性下标 l→1 误读——T̂_l 六处全写成 T̂_1（同句 ℤ_l 的 l 保留，前后不一致）②φ 的目标 ℤ 被加下标成 ℤ_l ③Cor2.8 的 N_Π̂_Z 下标 Z 误读成 τ ④(vi)开头“G→G^ab”箭头丢失、G₁ 拍平成“G 1”、Ĝ₁ 上多出波浪成 hat-tilde 堆叠 ⑤(vii)链条末尾被凭空插入第四步“=α(x)·y·α(x)⁻¹”（图像仅三步两等号）⑥(v)主语 T̂ 被改成 T̂₁ 且 Ĝ 变 Breve 重音 ⑦“over ℂ”黑板体拍平成 C、“cuspidal inertia group]”内多出“!”、exists 改成 exist、三处双句点两处双逗号、(vi)(vii)段界丢失 已登记(待裁决批9) |
+| 60 | Y | ✓ | ⚠ | ✓ | ✓ | ✓ | ✓ | WARN | F3: “non-proper”与“cuspidal inertia group”两处斜体丢失；正文文字逐字完整，无丢失无插入 |
+
+[审计-P051-060] DONE | p51-p60 | PASS 0 / WARN 1 / FAIL 9 / UNRESOLVED 0 | 需600dpi回图项 4
+SUGGEST: 跨页重复出现的引文/记号（如本批 Proposition 7.1 的引文在 p56 与 p58 两现）宜先跨页交叉核对再落“引文损坏”结论——fi 连字在 100dpi 下易被误读成 Fa，本次 p56 行已因此中途更正一次。

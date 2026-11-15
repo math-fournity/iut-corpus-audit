@@ -1,0 +1,1022 @@
+{
+ "Joshi_2020-10_UntiltsLabeledIsomorphs_arXiv2010.05748": {
+  "pages": 9,
+  "rows": 9,
+  "legacy": 9,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 5,
+   "FAIL": 4,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W5/F4 (legacy历史9页)"
+ },
+ "Joshi_2021-06_ATS-I_arXiv2106.11452": {
+  "pages": 67,
+  "rows": 67,
+  "legacy": 36,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 11,
+   "FAIL": 55,
+   "UNRESOLVED": 1
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W11/F55 (legacy历史36页)"
+ },
+ "Joshi_2021-11_ATS-II-towardsDiophantineEstimates_arXiv2111.04890": {
+  "pages": 23,
+  "rows": 23,
+  "legacy": 11,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 6,
+   "FAIL": 17,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W6/F17 (legacy历史11页)"
+ },
+ "Joshi_2021-11_CommentsOnATS_arXiv2111.06771": {
+  "pages": 12,
+  "rows": 12,
+  "legacy": 2,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 4,
+   "FAIL": 7,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W4/F7 (legacy历史2页)"
+ },
+ "Joshi_2023-03_ATS-II-localPrototype_arXiv2303.01662": {
+  "pages": 41,
+  "rows": 41,
+  "legacy": 3,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 2,
+   "FAIL": 38,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W2/F38 (legacy历史3页)"
+ },
+ "Joshi_2023-05_ATS-IIhalf-Deformations_arXiv2305.10398": {
+  "pages": 75,
+  "rows": 75,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 7,
+   "WARN": 7,
+   "FAIL": 60,
+   "UNRESOLVED": 1
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P7/W7/F60"
+ },
+ "Joshi_2024-01_ATS-III-RosettaStone_arXiv2401.13508": {
+  "pages": 165,
+  "rows": 165,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 28,
+   "FAIL": 135,
+   "UNRESOLVED": 2
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W28/F135"
+ },
+ "Joshi_2024-03_ATS-IV-ProofOfABC_arXiv2403.10430": {
+  "pages": 80,
+  "rows": 80,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 4,
+   "WARN": 19,
+   "FAIL": 56,
+   "UNRESOLVED": 1
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P4/W19/F56"
+ },
+ "Joshi_2025-05_FinalReport_arXiv2505.10568": {
+  "pages": 8,
+  "rows": 8,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 3,
+   "FAIL": 5,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W3/F5"
+ },
+ "Joshi_2025-11_FinalReport-ArizonaMirror": {
+  "pages": 13,
+  "rows": 13,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 3,
+   "FAIL": 9,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W3/F9"
+ },
+ "Joshi_2025-11_ResponseToGrouchyExpert": {
+  "pages": 2,
+  "rows": 2,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 0,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F0"
+ },
+ "Joshi_2025-11_TeichmullerQuest": {
+  "pages": 13,
+  "rows": 13,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 3,
+   "FAIL": 9,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W3/F9"
+ },
+ "Joshi_2026-05_LetterToKato": {
+  "pages": 6,
+  "rows": 6,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 5,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F5"
+ },
+ "Joshi_2026-05_MochizukiFAQ": {
+  "pages": 23,
+  "rows": 23,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 3,
+   "FAIL": 20,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W3/F20"
+ },
+ "Joshi_2026-07_CommentsOnLANAProjectReport": {
+  "pages": 6,
+  "rows": 6,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 6,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F6"
+ },
+ "Joshi_LetterFromJoshi-hostedByWoit": {
+  "pages": 3,
+  "rows": 3,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 2,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F2"
+ },
+ "Mochizuki_2018-05_Cmt2018-05": {
+  "pages": 8,
+  "rows": 8,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 1,
+   "FAIL": 6,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W1/F6"
+ },
+ "Mochizuki_2018-08_Cmt2018-08": {
+  "pages": 5,
+  "rows": 5,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 4,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F4"
+ },
+ "Mochizuki_2018_Rpt2018": {
+  "pages": 45,
+  "rows": 45,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 8,
+   "FAIL": 37,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W8/F37"
+ },
+ "Mochizuki-camp_2013-12_IUTeichVerificationReport": {
+  "pages": 7,
+  "rows": 7,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 5,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F5"
+ },
+ "Mochizuki-camp_2014-12_IUTeichVerificationReport": {
+  "pages": 17,
+  "rows": 17,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 15,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F15"
+ },
+ "Mochizuki_2013-08-20_PanoramicOverview": {
+  "pages": 45,
+  "rows": 45,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 8,
+   "FAIL": 37,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W8/F37"
+ },
+ "Mochizuki_2015-03_IUTeichProgram-EN": {
+  "pages": 1,
+  "rows": 1,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 1,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F1"
+ },
+ "Mochizuki_2016-01-12_BogomolovSzpiroFromIUT": {
+  "pages": 24,
+  "rows": 24,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 24,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F24"
+ },
+ "Mochizuki_2020-11_ClassicalRootsOfIUT": {
+  "pages": 27,
+  "rows": 27,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 5,
+   "FAIL": 21,
+   "UNRESOLVED": 1
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W5/F21"
+ },
+ "Mochizuki_2020-12-23_AlienCopiesGaussians": {
+  "pages": 170,
+  "rows": 170,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 15,
+   "FAIL": 154,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W15/F154"
+ },
+ "Mochizuki_2022-05-18_ExplicitEstimates": {
+  "pages": 58,
+  "rows": 58,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 6,
+   "FAIL": 51,
+   "UNRESOLVED": 1
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W6/F51"
+ },
+ "Mochizuki_2023-08_BriefReportOnSituation": {
+  "pages": 4,
+  "rows": 4,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 3,
+   "FAIL": 0,
+   "UNRESOLVED": 1
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W3/F0"
+ },
+ "Mochizuki_2023-10-20_AnabelianGateway_MFO-RIMS23": {
+  "pages": 12,
+  "rows": 12,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 11,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F11"
+ },
+ "Mochizuki_2024-03-24_EssentialLogicalStructure": {
+  "pages": 167,
+  "rows": 167,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 7,
+   "FAIL": 160,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W7/F160"
+ },
+ "Mochizuki_2024-03_ReportOnCertainPreprints-Joshi": {
+  "pages": 12,
+  "rows": 12,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 3,
+   "FAIL": 9,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W3/F9"
+ },
+ "Mochizuki_2024-04_IUTInnovatorPrizeAnnouncement-EN": {
+  "pages": 1,
+  "rows": 1,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 0,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F0"
+ },
+ "Mochizuki_2024_AnabelianGateway_IUGC2024": {
+  "pages": 14,
+  "rows": 14,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 12,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F12"
+ },
+ "Mochizuki_2025-10_IUT-report": {
+  "pages": 30,
+  "rows": 30,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 8,
+   "WARN": 10,
+   "FAIL": 12,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P8/W10/F12"
+ },
+ "Mochizuki_2025_AnabelianGateway_IUTSummit2025": {
+  "pages": 15,
+  "rows": 15,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 13,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F13"
+ },
+ "Mochizuki_2026-04_FormalizationOfIUT": {
+  "pages": 14,
+  "rows": 14,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 5,
+   "FAIL": 9,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W5/F9"
+ },
+ "Mochizuki_Bogomolov_comments": {
+  "pages": 1,
+  "rows": 1,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 1,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F1"
+ },
+ "Mochizuki_CombinatorialSectionConjectureAndPop-Stix": {
+  "pages": 6,
+  "rows": 6,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 5,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F5"
+ },
+ "Mochizuki_CommentsOnValuations": {
+  "pages": 4,
+  "rows": 4,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 3,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F3"
+ },
+ "Mochizuki_FAQ-on-IUTeich": {
+  "pages": 5,
+  "rows": 5,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 4,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F4"
+ },
+ "Mochizuki_FAQ-on-InterUniversality": {
+  "pages": 2,
+  "rows": 2,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 1,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F1"
+ },
+ "Mochizuki_GT-Theory-as-Teichmuller-Species": {
+  "pages": 14,
+  "rows": 14,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 12,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F12"
+ },
+ "Mochizuki_IUT-III_2020-05-18": {
+  "pages": 199,
+  "rows": 199,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 16,
+   "FAIL": 179,
+   "UNRESOLVED": 4
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W16/F179"
+ },
+ "Mochizuki_IUT-II_2020-12-23": {
+  "pages": 174,
+  "rows": 174,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 14,
+   "FAIL": 158,
+   "UNRESOLVED": 1
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W14/F158"
+ },
+ "Mochizuki_IUT-IV_2020-04-22": {
+  "pages": 87,
+  "rows": 87,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 10,
+   "FAIL": 77,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W10/F77"
+ },
+ "Mochizuki_IUT-IV_comments": {
+  "pages": 3,
+  "rows": 3,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 2,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F2"
+ },
+ "Mochizuki_IUT-I_2020-05-18": {
+  "pages": 186,
+  "rows": 186,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 9,
+   "FAIL": 177,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W9/F177"
+ },
+ "Mochizuki_InvitationToIUT": {
+  "pages": 11,
+  "rows": 11,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 11,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F11"
+ },
+ "Mochizuki_InvitationToIUT_LectureNoteVersion": {
+  "pages": 19,
+  "rows": 19,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 17,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F17"
+ },
+ "Mochizuki_OnTermsAnabelioidFrobenioid": {
+  "pages": 5,
+  "rows": 5,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 0,
+   "FAIL": 4,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W0/F4"
+ },
+ "Mochizuki_PanoramicOverview_comments": {
+  "pages": 1,
+  "rows": 1,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 1,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F1"
+ },
+ "Mochizuki_Pop-Stix-comments": {
+  "pages": 5,
+  "rows": 5,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 3,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F3"
+ },
+ "Mochizuki_ResponsesToQuestionsOnFrobenioids": {
+  "pages": 10,
+  "rows": 10,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 9,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F9"
+ },
+ "SS2018-05_manuscript-asDistributed-2018-05": {
+  "pages": 10,
+  "rows": 10,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 9,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F9"
+ },
+ "SS2018-08_manuscript-asDistributed-2018-08": {
+  "pages": 10,
+  "rows": 10,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 10,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F10"
+ },
+ "ScholzeStix_2018-05_up2018-09_WhyABCisStillaConjecture": {
+  "pages": 10,
+  "rows": 10,
+  "legacy": 3,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 10,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F10 (legacy历史3页)"
+ },
+ "RIMS1935_summit-related": {
+  "pages": 98,
+  "rows": 98,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 5,
+   "FAIL": 92,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W5/F92"
+ },
+ "RIMS1968_summit-related": {
+  "pages": 157,
+  "rows": 157,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 8,
+   "FAIL": 149,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W8/F149"
+ },
+ "Dimitrov_2016-01_effectiveABC_arXiv1601.03572": {
+  "pages": 12,
+  "rows": 12,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 11,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F11"
+ },
+ "Fesenko_2015-12_OxfordIUTWorkshop": {
+  "pages": 2,
+  "rows": 2,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 0,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F0"
+ },
+ "Fesenko_GuidesOnIUT": {
+  "pages": 3,
+  "rows": 3,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 1,
+   "FAIL": 2,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W1/F2"
+ },
+ "Fesenko_NotesOnIUT": {
+  "pages": 29,
+  "rows": 29,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 7,
+   "FAIL": 22,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W7/F22"
+ },
+ "LANA_2026-07_InterimReport_KatoEtAl": {
+  "pages": 50,
+  "rows": 50,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 12,
+   "FAIL": 37,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P1/W12/F37"
+ },
+ "Minamide_ExplicitEstimates-in-progress": {
+  "pages": 21,
+  "rows": 21,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 8,
+   "FAIL": 13,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W8/F13"
+ },
+ "Tan_IntroToIUT-slides": {
+  "pages": 48,
+  "rows": 48,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 2,
+   "FAIL": 46,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W2/F46"
+ },
+ "Yamashita_2017_AProofOfABCafterMochizuki_v6": {
+  "pages": 294,
+  "rows": 294,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 2,
+   "WARN": 3,
+   "FAIL": 289,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P2/W3/F289"
+ },
+ "Yamashita_2018-07-13_AProofOfABCafterMochizuki_405pp": {
+  "pages": 405,
+  "rows": 405,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 1,
+   "WARN": 7,
+   "FAIL": 397,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "FAIL",
+  "auditStatus": "进行中 405/405"
+ },
+ "Yamashita_2018-11_KeioSlides-id-version": {
+  "pages": 2,
+  "rows": 2,
+  "legacy": 0,
+  "failOpen": 0,
+  "grades": {
+   "PASS": 0,
+   "WARN": 0,
+   "FAIL": 2,
+   "UNRESOLVED": 0
+  },
+  "zoomOpen": 0,
+  "verdict": "pass",
+  "auditStatus": "全审 2026-11-15 P0/W0/F2"
+ }
+}

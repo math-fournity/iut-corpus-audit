@@ -1,0 +1,12 @@
+# AUDIT-MATRIX-Joshi_2026-05_LetterToKato-P001-006.md — Joshi_2026-05_LetterToKato p1-p6
+
+| 页 | 已审 | 结构 | 文字 | 公式 | 题注 | 图表 | 语义 | 判定 | 备注 |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Y | ⚠ | ✗ | ✓ | ✓ | ✓ | ⚠ | FAIL | F2: p1 正文多处字符误读（defence→defense、diferent→different、toolkit→toolset、admire→admirer、issuses→issues、envisaged→envisioned、"he has made"→"he made"）；Kato 引语结尾"our own understanding."应为"our understanding as to whether..."；F3: 页首斜体引言块与日期在提取中被移至 §1(3) 之后 已登记(待裁决批4) |
+| 2 | Y | ✓ | ⚠ | ✓ | ✓ | ✓ | ✓ | WARN | F2: (10) offers→ofers 连字丢失、Teichmüller 变音符分解为¨+u；F3: 标点小错（(9) 开括号(and)成逗号、(7) 结尾闭括号丢失、脚注3 句点转 dash、San Diego 后句号成逗号）；(4) misleading/mudslinging 图上存疑未计入 |
+| 3 | Y | ✓ | ✗ | ⚠ | ✓ | ✓ | ⚠ | FAIL | 公式(h).i争议需600dpi回图：提取为G_{Q̄_p}⋃O^{▷,pf}_{Q̄_p}≃O^{▷,pf}_{Q̄_p}⋃G_{Q̄_p}标注n↦m^n，而两遍视觉直读均为G_{Φ_{g^m}}∩O^{p>0}_{Φ_{g^p}}≃O^{p>0}_{Φ_{g^{p'}}}∩G_{Φ_{g'}}标注m→m′，正文语义支持提取版但字形读数相反；F2: (13) discuss→discus、(15) Joshi and Pathyk→Joshi und Pauly(and→und格式漂移+Pauly疑误读)；F3: LaTeX空格丢失(some$n、$g .$) 已登记(待裁决批4) 已裁决(批4)：存疑项经300dpi半页裁决(65成立/40不成立/0看不清全批合计)，本页明细见裁决批4裁决书(run dwfrun-f0c933df) |
+| 4 | Y | ✓ | ✗ | ✓ | ✓ | ✓ | ⚠ | FAIL | F2: 连字丢失×4(offers→ofers、different→diferent×3)、conjecture→conjectur、Units→Untilts("Units of fundamental groups"标题及"units of perfectoid fields"两处，两遍视觉确认)、294→254 pages(两遍视觉确认)、might still 被插入括号成(still)、monoids-with 空格丢失；引用"und"(Imayoshi und Taniguchi、Scholze und Stix)图与提取一致但疑与p3 and→und 漂移同源，建议600dpi一并核查；question¹/! 易混存疑 已登记(待裁决批4) |
+| 5 | Y | ⚠ | ✗ | ✓ | ✓ | ✗ | ⚠ | FAIL | F4: In Summary 三层堆叠结构图损毁——顶层 Number field L 错位至标题前、中层 an arithmetic holomorphic structure AHS on L 与两个+完全丢失、两条 overbrace 标注(see footnote 2/this Mochizuki does not prove)丢失，仅存底层行；F2: 文献标题 Units→Untilts(与p4两遍读数三方一致确认)、II(½)→II(¹)分母丢失、URL math.arizona.edu/~kirti 丢失tilde、Yōichi→Yoichi、文献内 Teichmüller→Teichmuller 变音符丢失；F3: 文献键名逗号丢失、文献斜体格式丢失、URL空格异常 已登记(待裁决批4) |
+| 6 | Y | ✓ | ✗ | ✓ | ✓ | ✓ | ⚠ | FAIL | F2: URL多处失真(Cnt→Cmt两遍确认、articles/201526→articles201525丢斜杠且尾数6→5两遍确认、IUT-report-March-2025-10丢失March-两遍确认、~motizuki的~多处丢失或sub包装、Alien/Copies→Alien%20Copies存疑、http→https存疑)、Mochizuki 2022标题"\"/"~\"→"∧"/"∨"记号误读(两遍确认)、Inter-Universal→Inter-Universa丢l、I.II.III.IV→I,II,III,IV两处、Discussions后插逗号；F3: Scholze 2017 Étale→Etale+孤立´剥离后置、变音符损伤≥10处(Teichmüller系列、étale、Astérisque) 已登记(待裁决批4) |
+[审计-P001-006] DONE | p1-p6 | PASS 0 / WARN 1 / FAIL 4 / UNRESOLVED 0 | 需600dpi回图项 1
+SUGGEST: 后页证据推翻前页备注判断时(如本片p3的und/Pauly在p5文献条目反证下疑为审计者100dpi误读而非提取错误)应允许追加勘误行而非受"不重做已审页"限制，否则已写备注的误差无法修正
