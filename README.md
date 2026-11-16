@@ -1,4 +1,4 @@
-# ABC — IUT/ABC 争议语料的 MinerU 提取质量审计数据集
+# iut-corpus-audit — IUT/ABC 争议语料的 MinerU 提取质量审计数据集
 
 对 68 份 IUT（宇宙际 Teichmüller 理论）争议相关文献（共 3105 页）的 MinerU Markdown
 提取质量，做了**逐页、图对切片的六维度视觉审计**：每页一行矩阵行（结构/文字/公式/题注/
