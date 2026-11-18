@@ -5,7 +5,7 @@
 # 产出：workspace/ 镜像 + workspace-MANIFEST.tsv（sha256\tpath\tbytes，位于 ABC 根）
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
-SRC="/Volumes/D/audit-workspace"
+SRC="<audit-workspace>"
 DST="$ROOT/workspace"
 mkdir -p "$DST"
 if [ "${1:-}" = "--delete" ]; then

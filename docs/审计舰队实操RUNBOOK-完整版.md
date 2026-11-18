@@ -35,7 +35,7 @@
 |---|---|---|
 | PDF 语料 | `corpus/<author>/<name>.pdf` | 34M/68 份，sha256 锚版本，**不再分发** |
 | MinerU 全文 | `corpus-md/<name>/full.md + pages/` | 28M，审计对象 |
-| **工作区** | `/Volumes/D/audit-workspace/<name>/` | `_audit-pages/`（100dpi 灰度页图 pNNN.png，真值）+ `_audit-md/`（逐页切片 pNNN.txt，待检对象）+ `_zoom/`（裁决/抽查裁片） |
+| **工作区** | `<audit-workspace>/<name>/` | `_audit-pages/`（100dpi 灰度页图 pNNN.png，真值）+ `_audit-md/`（逐页切片 pNNN.txt，待检对象）+ `_zoom/`（裁决/抽查裁片） |
 | 矩阵 | `corpus-md-audit/shards/<name>/AUDIT-MATRIX-<name>-PX-Y.md` | 分片=10 页区间，agent 追加行 |
 | 汇总 | `corpus-md-audit/matrices/*-FINAL.md` + `STATUS.json` + `SUMMARY.md` | 收割脚本自动聚合 |
 | 工具 | `tools/workflows/` | 全管线（见 §九速查表） |
@@ -60,7 +60,7 @@
 
 ## 四、波循环（核心编排）
 
-**发射**：`CreateWorkflow(path=/Users/aurolafly/ABC/tools/workflows/audit_fleet.ts,
+**发射**：`CreateWorkflow(path=tools/workflows/audit_fleet.ts,
 args={"maxUnits":20}, subagent_model=<模型串>, name="全转全审·第N波")`。
 同一时间**只有一波舰队在飞**；裁决/抽查类小 workflow 可并行。发新波前确认无用户可能恢复的已停波。
 

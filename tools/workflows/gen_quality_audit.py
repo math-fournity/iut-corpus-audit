@@ -9,8 +9,8 @@ IUT-IV Tier-0红×WARN(17)+FAIL 6 页。
 """
 import fitz, glob, json, os, sys
 
-REPO = "/Users/aurolafly/ABC"
-WS = "/Volumes/D/audit-workspace"
+REPO = "~/ABC"
+WS = "<audit-workspace>"
 
 DEFAULT_PAGES = {
     "Mochizuki_IUT-II_2020-12-23": [10, 35, 60, 85, 110, 135, 160],
@@ -65,8 +65,8 @@ interface PageVerdict {{
 }}
 const PAGES: Record<string, number[]> = {json.dumps(pages, ensure_ascii=False)};
 const DOCS = {json.dumps(docs, ensure_ascii=False)};
-const WSDIR = (doc: string) => `/Volumes/D/audit-workspace/${{doc}}/_zoom`;
-const MDDIR = (doc: string) => `/Volumes/D/audit-workspace/${{doc}}/_audit-md`;
+const WSDIR = (doc: string) => `<audit-workspace>/${{doc}}/_zoom`;
+const MDDIR = (doc: string) => `<audit-workspace>/${{doc}}/_audit-md`;
 const ask = (doc: string, p: number) => `你是独立质量复核代理，盲审 ${doc} 第 ${{p}} 页。
 按序 Read 三份文件：
 1) ${{WSDIR(doc)}}/qa-p${{String(p).padStart(3, "0")}}-top.png（300dpi 上半页，图像=真值）

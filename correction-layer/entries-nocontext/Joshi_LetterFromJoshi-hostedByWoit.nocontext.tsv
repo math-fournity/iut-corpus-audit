@@ -1,0 +1,12 @@
+页	行	族	模式	修复型	状态
+1	8	F07	变音符拆散	deterministic	rule-based
+1	10	F07	变音符拆散	deterministic	rule-based
+2	8	F07	变音符拆散	deterministic	rule-based
+2	12	F07	变音符拆散	deterministic	rule-based
+2	14	F07	变音符拆散	deterministic	rule-based
+2	16	F07	变音符拆散	deterministic	rule-based
+2	22	F03	ff连字丢失	deterministic	rule-based
+2	24	F03	ff连字丢失	deterministic-nop	rule-noop
+3	6	F07	变音符拆散	deterministic	rule-based
+3	22	F07	变音符拆散	deterministic	rule-based
+3	34	F08	双标点	deterministic-nop	rule-noop

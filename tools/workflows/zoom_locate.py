@@ -9,13 +9,13 @@
   # C. 手工坐标（Flash 半页报位后的复核）：pt 坐标 (原点左上)
   python3 zoom_locate.py <doc名> --page 12 --xy 320,450,540,500
 
-产出: /Volumes/D/audit-workspace/<doc>/_zoom/LOC-pNNN-<序号>.png + stdout 路径
+产出: <audit-workspace>/<doc>/_zoom/LOC-pNNN-<序号>.png + stdout 路径
 _MARGIN 默认外扩：上下 40pt 左右 90pt（--tight 收窄为 15/30）。
 """
 import fitz, glob, json, os, re, sys
 
-REPO = "/Users/aurolafly/ABC"
-WS = "/Volumes/D/audit-workspace"
+REPO = "~/ABC"
+WS = "<audit-workspace>"
 
 
 def find_pdf(doc_name):

@@ -1,0 +1,6 @@
+页	行	族	模式	修复型	状态
+1	18	F07	变音符拆散	deterministic	rule-based
+1	22	F07	变音符拆散	deterministic	rule-based
+1	28	F07	变音符拆散	deterministic	rule-based
+1	32	F07	变音符拆散	deterministic	rule-based
+1	34	F03	ff连字丢失	deterministic	rule-based

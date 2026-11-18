@@ -33,8 +33,8 @@ interface WorkflowReport {
   notCovered: string[];
 }
 
-const REPO = "/Users/aurolafly/ABC";
-const WS = "/Volumes/D/audit-workspace";
+const REPO = "~/ABC";
+const WS = "<audit-workspace>";
 
 const rawDocs = args.docs;
 const DOCS: string[] = Array.isArray(rawDocs) ? rawDocs.filter((x): x is string => typeof x === "string") : [];

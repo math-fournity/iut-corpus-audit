@@ -7,8 +7,8 @@
 """
 import glob, os, re, sys
 
-WS = "/Volumes/D/audit-workspace"
-OUT = "/Users/aurolafly/ABC/corpus-md-audit/tier0/PATTERN-SUSPECTS.tsv"
+WS = "<audit-workspace>"
+OUT = "corpus-md-audit/tier0/PATTERN-SUSPECTS.tsv"
 
 # (模式名, 正则, 说明) —— 全部来自已裁决实证，禁止凭空添加
 PATTERNS = [

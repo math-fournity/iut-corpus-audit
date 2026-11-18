@@ -50,9 +50,9 @@ const PAGE_BUNDLE = 10;   // 每代理页数（视觉审计 token 账：10 页�
 const CONCURRENCY = 20;   // 同时在飞代理数（2026-11-13 用户新裁定：只放大并发；单元上限随之 20，否则并发跑不起来）
 const FEED_ROUNDS = 12;
 
-const REPO = "/Users/aurolafly/ABC";
-const WS = "/Volumes/D/audit-workspace";
-const TEMPLATE = "/Users/aurolafly/.agents/skills/mineru/prompts/audit-subagent.md";
+const REPO = "~/ABC";
+const WS = "<audit-workspace>";
+const TEMPLATE = "~/.agents/skills/mineru/prompts/audit-subagent.md";
 
 const rawDocs = args.docs;
 const DOC_FILTER: string[] = Array.isArray(rawDocs)

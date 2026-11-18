@@ -1,0 +1,4 @@
+页	行	族	模式	修复型	状态
+1	6	F09	占位符吞整图	routed-223	routed
+1	18	F02	小型大写作者名销毁	visual-required	needs-visual
+2	6	F08	双标点	deterministic-nop	rule-noop

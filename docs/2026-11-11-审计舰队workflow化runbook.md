@@ -53,7 +53,7 @@ PASS/WARN/FAIL/UNRESOLVED（非旧 PASS/PASS±/FAIL）。
 ## 3. 工作区与产物布局（用户裁定：大文件放 D 盘）
 
 ```
-/Volumes/D/audit-workspace/<文档短名>/        ← 工作区（D 盘，大文件；不入 git）
+<audit-workspace>/<文档短名>/        ← 工作区（D 盘，大文件；不入 git）
 ├── _audit-pages/pNNN.png                     ← 100dpi 灰度页图（编排者预渲染，只读）
 ├── _audit-md/pNNN.txt                        ← 逐页 md 切片（编排者预切，只读）
 ├── _zoom/zoom600-*.png                       ← 600dpi 局部放大（裁决用）

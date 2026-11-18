@@ -6,12 +6,12 @@
 set -u
 REPO="$(cd "$(dirname "$0")/../.." && pwd)"
 cd "$REPO"
-VM=/Users/aurolafly/.agents/skills/mineru/scripts/validate_matrix.py
+VM=~/.agents/skills/mineru/scripts/validate_matrix.py
 DOCS_FILTER="${1:-}"
 python3 - "$VM" "$DOCS_FILTER" <<'EOF'
 import glob, json, os, re, subprocess, sys, time
 
-WS = "/Volumes/D/audit-workspace"
+WS = "<audit-workspace>"
 SHARDS = "corpus-md-audit/shards"
 VALIDATE = sys.argv[1]
 try:

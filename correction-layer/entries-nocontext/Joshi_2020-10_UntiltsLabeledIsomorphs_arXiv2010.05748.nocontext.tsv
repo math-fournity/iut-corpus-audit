@@ -1,0 +1,8 @@
+页	行	族	模式	修复型	状态
+1	25	F07	变音符拆散	deterministic	rule-based
+4	24	F07	变音符拆散	deterministic	rule-based
+6	38	F07	变音符拆散	deterministic	rule-based
+8	6	F08	HTML残留	deterministic	rule-based
+8	24	F08	HTML残留	deterministic	rule-based
+8	28	F08	HTML残留	deterministic	rule-based
+9	28	F08	HTML残留	deterministic	rule-based

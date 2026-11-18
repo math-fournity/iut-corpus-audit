@@ -1,0 +1,16 @@
+页	行	族	模式	修复型	状态
+2	6	F05	相邻数学组间纯空格(疑丢箭头)	visual-required	needs-visual
+5	10	F08	HTML残留	deterministic	rule-based
+6	6	F08	双标点	deterministic-nop	rule-noop
+11	14	F08	双标点	deterministic-nop	rule-noop
+11	18	F08	双标点	deterministic-nop	rule-noop
+12	28	F08	双标点	deterministic-nop	rule-noop
+12	32	F08	双标点	deterministic-nop	rule-noop
+12	34	F08	双标点	deterministic-nop	rule-noop
+13	4	F08	双标点	deterministic-nop	rule-noop
+13	6	F08	双标点	deterministic-nop	rule-noop
+13	8	F08	双标点	deterministic-nop	rule-noop
+13	10	F08	HTML残留	deterministic	rule-based
+13	14	F08	HTML残留	deterministic	rule-based
+13	16	F08	HTML残留	deterministic	rule-based
+13	26	F08	双标点	deterministic-nop	rule-noop

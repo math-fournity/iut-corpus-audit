@@ -7,8 +7,8 @@
 """
 import fitz, glob, json, os, re, sys
 
-REPO = "/Users/aurolafly/ABC"
-WS = "/Volumes/D/audit-workspace"
+REPO = "~/ABC"
+WS = "<audit-workspace>"
 VENV = "/Volumes/D/toolchain-cache/mineru-venv/bin/python"
 
 def find_pdf(name):
@@ -19,7 +19,7 @@ def find_pdf(name):
 def main():
     args = sys.argv[1:]
     maxn = int(args[args.index("--max") + 1]) if "--max" in args else 120
-    out = args[args.index("--out") + 1] if "--out" in args else "/Users/aurolafly/shuxuedashi-glm5.2-worktree/.zcode/workflow-drafts/gen-裁决批.dwf.ts"
+    out = args[args.index("--out") + 1] if "--out" in args else "~/shuxuedashi-glm5.2-worktree/.zcode/workflow-drafts/gen-裁决批.dwf.ts"
     name = args[args.index("--name") + 1] if "--name" in args else "裁决批·自动生成"
 
     # 1) 提取 zoom 项
@@ -61,7 +61,7 @@ def main():
 interface Verdict {{ page: string; question: string; verdict: string; seen: string; }}
 const CLAIMS: Record<string, string> = {json.dumps(claims, ensure_ascii=False)};''']
     ts.append("const GROUPS: string[][] = " + json.dumps([[f'{i["doc"]}|{i["page"]}' for i in g] for g in groups], ensure_ascii=False) + ";")
-    ts.append('''const WSDIR = (doc: string) => `/Volumes/D/audit-workspace/${doc}/_zoom`;
+    ts.append('''const WSDIR = (doc: string) => `<audit-workspace>/${doc}/_zoom`;
 const asks = GROUPS.map((g, gi) => `你是视觉裁决代理（第${gi + 1}组）。逐页裁决。对每页：Read ${"WSDIR(doc)"} 下 pNNN-top.png 与 pNNN-bot.png（NNN=三位零填充页号）。只裁决备注中标「需600dpi回图/存疑/无法确证/100dpi」的子主张。
 硬规则：verdict 字段只能是 成立/不成立/看不清 三词之一；看不清绝不许猜；禁止任何×倍放大措辞——你真裁了局部（可用 zoom_locate.py）就写裁片路径，没裁就只描述半页图所见；seen 逐字写记号形态与所在公式。
 本组页与主张（键=文档|页码）：

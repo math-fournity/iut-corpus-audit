@@ -935,3 +935,186 @@
 - SUMMARY-FINAL.md 落盘：误读模式聚合 10 族、Image-block 占位 223 页/28 文档单列、
   参考文献页单列、看不清/S4 候选 12 项、已知欠账（裁决书批1-8 未入册/PRIMS 发表版未入库）。
 - 收官发布：双仓 tag v1.0-audit-complete；公开仓刷新推送。
+
+## W087 — S4 目标①：裁决书批1–15 全部入册（2026-11-15）
+
+- **15 册全齐**（`adjudication-books/批N-裁决书.md`，批2=批2a）：合计 3265 子项
+  （140/65/226/105/121/96/281/244/250/289/435/451/244/395/7）。
+- **方法升级（零模型成本）**：权威渲染器 `tools/publish/render_adjudication_books_db.py`
+  直读 journal DB（`~/.zcode/cli/db/db.sqlite` 只读）`dwf_run.result_json`，取代转录扫描法
+  （v3 对早期批不可靠：批1–4 完成通知不在可解析转录里）。
+- **批1 journal 考古**：无名为「裁决批1」的 run；确认为 2026-11-12 早晨**复合批次**
+  （ATS-I 31项zoom·修正版 7efaa322=120 子主张恰合 W020 的 75/43/2 + LANA遗留4cf8efe9/
+  LANA-p9 d5d9c1b5/Joshi5页 cc08a605/p4真裁 d50c0799 四卫星）→ 合成一册 140 项，
+  问答式 13 项（Joshi 等）不计三分类，注释行说明。
+- **交叉验证**：批5–11 转录法与 DB 法逐项一致（仅来源行差异）；批8/9/10 续跑多 run
+  取 completed 且 findings 最多者。
+- 并发事故记录：后台 v3 渲染任务（exec_95d763e4）在 DB 渲染后覆盖书册并抢先 commit
+  （37e8aca，message 写「批5-11」实际内容为批1/2a/3/4/12-15——message 与内容不符，
+  rebase 禁用不改写历史，特此记录）；后续 26ed864 统一 15 册来源行为 DB 版。
+- Yamashita405pp _zoom 裁决裁片 86 文件入册（沿既有 4281 zoom 文件先例）。
+- **SUMMARY-FINAL 欠账「裁决书批1-8 未入册」就此清偿。**
+
+## W088 — S4 Step-1：补丁层首建（B 形态，2026-11-15）
+
+- 修复形态裁定采择：**B 补丁层**（依据=用户「自己把方案选出来+最高保证度」常设裁定；
+  两次 AskUserQuestion 未作答；B 是唯一不动 corpus-md 本体的形态，可逆，用户后续裁定即刻覆盖）。
+- `correction-layer/` 首建：14673 条（entries/ 71 文档 tsv + families/ F01-F10 族卡 + SUMMARY 账目），
+  诚实三型分层：deterministic 10559（整行修前/修后）/ visual-required 3883 / routed-223 255。
+- 工具 `tools/repair/gen_correction_layer.py`；坑：预筛样本只存前 120 字符，缺陷常在样本外——
+  改读 _audit-md 整行后修复 diff 全部可核（efect→effect、Teichm¨uller→Teichmüller、´etale→étale、
+  `<sup>1</sup>`→`^1` 实证）。
+- corpus-md/corpus 本体零接触。runbook=AI 仓 dev-docs/abc-audit/RUNBOOK-S4修复与收尾.md（4ba18599）。
+- Step-2（8 族×3 例视觉抽验，dwfrun-4517d822）在飞；④ wave-1（15 页）300dpi 半页图
+  （±20pt 重叠带）已渲染待发。
+
+## W089 — S4 ③Step-2 收口 + ④第 1 波（2026-11-15）
+
+- **Step-2 视觉抽验**（dwfrun-4517d822）：24 例（8 族×3）= fix-correct 17 / proposed 4 /
+  **fix-wrong 3**（>5% 阈值触发根因）。根因①双标点规则把合法混排（i.e., / Y., M.）折叠——
+  改为只折叠同字符重复（,,/../;;，7 条单测全过），重生成后 3607 命中真缺陷仅 8 条，
+  **拦下 3599 条合法文本误修**；根因②H双美元规则 1 例翻车降级视觉。族卡回填+step2-spotcheck.md
+  入册（1b9744f）。**③ 就此收口**：补丁层+每族≥3例对照+抽验+根因修正全落盘。
+- **④ 第 1 波**（dwfrun-66007d6b）：15 页占位死页（Fesenko p1 → Panoramic p25）
+  Flash 300dpi 直读转写+fresh-eyes 验证 = **high 7 / medium 8 / low 0**，[?] 未清 9。
+  验证层再证价值：8 页 medium 实错全部被 sips 4x–8x 放大逐处定位（Delby→Belyi
+  cuspidalization、mathrm an/temp→斜体 ~24 处+arXiv 源码旁证、overline→bar 像素测量、
+  长箭头→短箭头 44px 测量、𝔥≠𝕳 小写判别、lo𝔤=粗正体lo+fraktur g、fi-/fl- 连字判别等）。
+  转写稿 15 份 + imageblock-recheck.tsv（16 行三重校验）入库（e8df359）。
+- wave-1 修订小队在飞（dwfrun-f8f77d06，8 medium 页按验证报告已定位修法改正）；
+  波次脚本已内置修订相位（第 2 波起转写→验证→修订→归档四相）。
+- ⑤ 真源清单落盘（12 项全部不在 223 页清单内，独立 600dpi 微裁决，fc8afbe5）。
+
+## W090 — S4 ⑤ 收口：批16 微裁决 242 子主张（2026-11-15）
+
+- 12 项「看不清」全部处置完毕（dwfrun-e779c57c）：原始主张全文从矩阵备注列回溯补全
+  （当年裁决 ask 截断的根因不在注册表——主张本就完整，截断发生在 ask 组装显示），
+  600dpi 微裁决展开为 **242 子主张：成立 167 / 不成立 66 / unresolvable@600dpi 9**。
+- 裁决书 `adjudication-books/批16-裁决书.md`（118KB，书记员确定性渲染+三重核对：
+  242×4 字段逐字保真比对 0 漂移）；README 合计更新 3507 子项（9dece1d）。
+- 亮点裁决：Y2017 p29 的 ⊅ 定谳（审计员两个候选全错、MinerU \\nearrow 也错——三方皆错
+  的真形态）；p282/p284 索引页码成串丢失逐行实证（∞H¹ 行 8 页码/†𝓗𝓣 行 7 页码逐一在图）；
+  Tan p36-40 的 ▸/ℓ/ξ/|t|/𝔖 字形族全面定谳；405pp p138 的 Ÿ 两点分离与 Ẑ 三形态清单。
+- unresolvable 9 项（Tan p37×7、Y2017 p215×2）= 图侧已定谳但 MinerU 输出侧缺比较基准
+  （当年主张未登记提取值）——如实入册为最终态，不硬判。
+- **⑤ 完成。** ④ wave-3 在飞（dwfrun-06e22552，31-45 页）。
+
+## W091 — wave4 收口 + amend-args 事故与修复（2026-11-16）
+
+- **wave-4**（7d2bebc）：15 页 high2/medium13/low0；图形密集区定谳（同页 ↪/↶/↷ 三态并存、
+  Fraktur 𝔩𝔬𝔤 双形态、=RHS 下标等号 vs IUT 惯例双线等号——惯例不能代替图像）。
+- **事故**：wave-5 因 InvitationToIUT 两版前 14 字符同名+p7 撞名 errored；我用 AmendWorkflow
+  修复时 **amend 不继承 CreateWorkflow 的 args**——修复 run 按默认参（wave=1/start=0）把
+  波 1–2 的 30 页重跑一遍并追加 30 条 tsv 重复行（波次列错标 1）。
+- **修复**：tsv 剔除重复行回 61 行 0 重复（未提交态，无损回滚）；重跑产生的二轮 fresh-eyes
+  报告与修订保留入账（218c750）——**意外红利**：二轮验证捕获 wave-1 一处错误修订
+  （p25 lo𝔤 实为全 Fraktur，11-15 判定系误判已回改）+ Bogomolov p5 残留箭头记法 13 处 +
+  Rpt2018 p33 两处反向改错再翻转 + Panoramic 计数/措辞 4 处——30 页白得一轮双验。
+- **教训入册**：撞名防护已固化进 wave draft（预检碰撞+后缀）；「amend 不带参」教训写入
+  draft 头注——带参 run 出错后正确姿势=CreateWorkflow path+args 重新发射。
+- **真 wave-5**（dwfrun-e2a0ba13，start=60，30 页 Essential p88…IUT-I p118）已发射并快照
+  验证切片正确。
+
+## W092 — wave5/6 双波账 + 暂停待放行（2026-11-16）
+
+- **wave-5**（57106a3，start=60，30 页）：high5/medium25，[?]39。IUT-I 开卷新定谳族：
+  Θ^{±ell} 三字母 15 处（花体 ℓ 全错）、※ 参考记号 9 处、refinement 折角箭头（MSAM7，
+  pdffonts 判源）、粗 Fraktur 𝔩𝔬𝔤 记号族、\longmapsto（全文档 181 箭头词宽统计）。
+  中途撞 1308 限额自愈（停摆 ~5 分钟）。
+- **wave-6**（start=90，30 页）：high9/medium21，[?]29——120/223。IUT-II/III 开卷：
+  ✳ 六芒+双点星号族（F_l 上标与框角符同款 6 处）、§I1 体例再证（8x+5x 双裁片）、
+  ‡→† 单横剑号误标、Π_{v̲▶} 的 ▶ 上双点（600dpi 渲染+PDF 文本层 U+00A8+p73 同款三重证）、
+  Fig1.7 大写 Θ→小写 θ（8x 四处）与双向弧箭头分流、\overline{Γ}→\overrightarrow{Γ}×3（6x 箭头尖）、
+  加粗过度像素级判别（ink 0.26 vs 0.38-0.47）。
+- **[?] 累计 126 项**（9+22+7+20+39+29）待 223 页收齐后统一 600dpi 闭环。
+- **用户指令：wave-6 完成后暂停，不发新工作流**——本分片即暂停点。恢复时下一跳=
+  wave-7（start=120，预计 4 波收完全部 223）。
+
+## W093 — wave8 收口 + 多工作流并发实验与 Magpie 断线事故（2026-11-16/17）
+
+- **wave-8**（个人订阅末班，1017f779，9d133cd）：30 页 high7/medium23/low0，[?]46——
+  **180/223 入册**。Y2017 主体区定谳：out 上标 6 处 overset、𝔏̈ 双点 5 处、⇝ 直杆+tilde
+  族再证（p86/p120/p260）、Π_X 大小写 7 处（转写者未标存疑，验证层补抓）、Ẏ 下划线 15 处
+  误加、双头 ↠ 族多处、原稿 typo 照抄纪律持续有效（Teichüller/ridigifies/subgoup）。
+- **多工作流并发实验（用户裁定方向）**：同时发射 5 个 run（wave-8 Magpie 接替版 + w9/w10/w11
+  三片 + PDF 直读 A/B 实验），实测：
+  - 单 run 并发不是硬上限 8——wave-5 曾 30 并发全跑；限流时自适应退到 1–8；
+  - **Magpie 端点自 ~18:52 起断线+限流抖动（network_error ↔ rate_limited 交替）**，五 run
+    全部停滞；w9/w11 涓流至 900K/609K 后于 22:47 彻底冻住，w10 全程 0 token，PDF 实验
+    2.0M 后 21:10 冻住；2 小时+ 零进展 → Magpie 线实际不可用；
+  - **事故：双 wave-8 并行**——GUI 切模型生成 b5187ae5「接管」时原 run 1017f779 未被停，
+    两者同跑同批 30 页（重复烧 token 37.8M + md 写入竞态）；最终 1017f779 先跑完，b5187ae5
+    完全冗余冻结。教训：GUI 切模型后要核对原 run 已停。
+- **并发纪律入册**（RUNBOOK §3.5，用户裁定）：多 workflow 并行=池子容量非单 run 值；分片
+  粒度 4–8 页/run；账本分片防撞（imageblock-recheck-<shard>.tsv）；在飞不拆片。
+- **待用户决定**：停 b5187ae5；剩余 43 页（181–223）等 Magpie 修复 or 放行个人订阅收尾
+  （~2 波 ≈ 5 亿 token）。[?] 累计 172 项待 600dpi 闭环。
+
+## W094 — settings-amend 二次丢 args 事故（2026-11-17）
+
+- **事故**：切换模型时用 settings-only AmendWorkflow（只改 subagent_model）——**amend 同样不继承
+  args**，四个分片全部打回默认参（wave=1/start=0/size=30/shard=""），w11 的替身 run 跑完了
+  **第 1–30 页的第五轮重跑**（high28/medium2）并向主 tsv 追加 30 条重复行；w9/w10 替身跑了
+  几分钟被我停掉。违反了 draft 头注里 11-16 第一次事故后写下的教训——教训等级升为铁律：
+  **任何带参 run 改脚本或改设置=一律 CreateWorkflow path+args 显式重发，amend 一律不许碰带参 run**。
+- **处置**：tsv 剔回 181 行 0 重复；第五轮页面报告有增量价值保留（p16 断行连字计数 7→6、
+  p26 subspaces 丢 sub ×2、τ̃^{|∠|} 300dpi 8x 定谳、发现 sips --cropOffset offsetY=0 全宽条带
+  错位 bug 改用 magick——工具层新坑入册）（0455072）。
+- **真 w11**（dwfrun-61eb926e，CreateWorkflow 显式 args start=210/size=13/shard=w11）已发射。
+- w9/w10 的错误替身 run（c49174c3/41f086d5）已弃——轮到它们时同样 CreateWorkflow 显式 args。
+  PDF 实验（9e232e52）无 args 依赖，resume 安全。
+
+## W095 — MCP 预算根因闭环 + Hydrogen$xhigh 第10波真w10收口（2026-11-17）
+
+- **平台根因闭环**：排查定位 `agy` 20,000-token MCP 工具总表预算超限导致静默按体积丢弃 `CreateWorkflow` 与子代理 `submit_result`；用户关闭无关重型 MCP 后，最小纯功能冒烟（`dwfrun-f9a08374`）37s 全绿通过。
+- **用户新裁定入册**（RUNBOOK v2 `552941e0`）：后续审计/转写/复核子代理一律锁定 `magpie/agy-cli/gemini-4-hydrogen$xhigh`（禁用 `carbon`），全局同时存活子代理上限 ≤ 12（`max_concurrency: 12`），切图统一改 `/opt/homebrew/bin/magick`。
+- **真 w10 收口**（`dwfrun-d39068bc`，`start=195, size=15, shard=w10`，复用盘上 10 页初稿）：15 页 `high 11 / medium 4 / low 0`，非 high 未修订 0，`[?]` 未清 0——累计 **208/223** 入册（顺手清除主 TSV 历史重复表头行并按 223 清单序重排校验）。
+  - 关键捕获与修订：`p130` 6×/8× 放大推翻转写者将 Euler Fraktur `\mathfrak{Y}.` 幻觉为 `\mathfrak{Y}).` 的 2 处假排印错误（修 4 处）；`p163` 恢复原稿排印错误 `inter-unversal` 并加注记、统一 Remark 7.23.3 双引号（修 4 处）；`p168` 400%-600% 放大纠回全页 10 处 `\deg_{\mathfrak{F}\mathrm{r}} → \deg_{\mathrm{Fr}}` 及粗体 `\mathbf{\Phi}`（修 12 处）；`p231` 8×/16× 放大纠回两处 `\mathbb{F}_l^* → \mathbb{F}_l^{\divideontimes}`（修 5 处）。
+- **下一跳**：紧接单波串行发射最后 15 页真 `w9`（`start=180, size=15, shard=w9`，复用盘上 3 页初稿，`hydrogen$xhigh`，`max_concurrency=12`）冲刺 223/223。
+
+## W096 — S4④ 第9波真w9收口：223/223 整页转写全满贯（2026-11-17）
+
+- **真 w9 收口**（`dwfrun-d2fad1b1`，`start=180, size=15, shard=w9`，复用盘上 3 页初稿，`magpie/agy-cli/gemini-4-hydrogen$xhigh`，`max_concurrency=12`）：15 页 `high 11 / medium 4 / low 0`，非 high 未修订 0，`[?]` 未清 1——至此 **S4④ 223/223 占位死页整页转写+独立验证+按报告修订全部入册**（全库 223 页汇总：`high 71 / medium 151 / low 1`，TSV 登记未清存疑 `226` 项 / `114` 页，正文显式 `[?]` 占位 `83` 处 / `29` 页）。
+  - 本波关键捕获与修订：`p13` 800% 放大纠回 `(M ->)M^{gp/pf}` 误作双头 `\twoheadrightarrow` 及竖直箭头 `=`/`f` 左右侧位失实（修 11 处）；`p48` 600% 放大定谳左列单杆向上箭头与中/右列底部向左单射钩向上箭头、商群斜杠尺寸（修 8 处）；`p59` 600% 放大定谳直立罗马体 `\chi_{\mathrm{cyc},l}` 与行内 `\bigcap_{N\geq 1}`（修 8 处）；`p60` 600% 像素级墨量向量比对（24 列完全重合，总墨量均 54191）证伪 `\boldsymbol{k}` 恢复普通斜体 `$k$` 并纠回重叠带计数（修 7 处）。
+- **下一跳**：目标①下半场——全 223 页未清 `[?]` 项 600dpi 局部裁片定谳闭环 + 跨波弱项符号族定点 600dpi sweep。
+
+## W097 — 全历史失败工作流穿透对账 + S4① 600dpi闭环第1批收口（2026-11-17）
+
+- **全历史 34 run 穿透核查闭环**：从 SQLite `dwf_run/dwf_actor/dwf_node/part` 核查全部 16 个失败/取消工作流的 49 次写盘——`LATE WRITES = 0`、`INTERLEAVED WRITES = 0`，全 223 份 `.md` 行首锚定结构检查 `0 issues`；抓出并修复 `W094` 清理重复行遗留的前 30 行 TSV 旧账脱节（`54084c1`）及由此漏排的 3 页 600dpi 目标（`f948e0ac`，总队列 `152 → 155` 页）。
+- **S4① 600dpi 闭环与弱项 sweep 第 1 批收口**（`dwfrun-be7a0396`，`0..29/155`，`Hydrogen$xhigh`，`max_concurrency=12`）：30/30 页一次完成（0 失败），新定谳 `[?]` 27 项、确认前序已闭环 25 项、`unresolvable@600dpi` 0 项；弱项符号族核对 245 处、抓出漏检并就地补修 81 处（正文共精准修改 183 处，全部 30 页历史验证报告与修订记录校验零受损）。
+  - 重大纠偏亮点：`Rpt2018 p33` 600dpi 见椭圆环内工字形两端竖直衬线横杆，证伪前序 300dpi 改判的 `\ominus`、恢复 CM 大写 `\Theta` 27 处；`AlienCopiesGaussians p67/89/90` 与 `Panoramic p28` 批量坐实 `\mathbb{F}_l^* → \mathbb{F}_l^{\divideontimes}`（49 处）及 `\times\pm → \rtimes\pm`（18 处）；`AlienCopiesGaussians p60/99` 坐实 `\mathfrak{log}` 19 处；`Panoramic p26` 坐实 `\Vdash`（⊩ 非 ⫢）。
+- **下一跳**：紧接发射第 2 批（`batch=2, start=30, size=30/155`）。
+
+## W098 — S4① 600dpi闭环第2批收口（60/155）（2026-11-17）
+
+- **第 2 批收口**（`dwfrun-0a19088d`，`30..59/155`，`Hydrogen$xhigh`，`max_concurrency=12`）：30/30 页一次完成（0 失败），新定谳 `[?]` 45 项、确认前序已闭环 16 项、`unresolvable@600dpi` 0 项；弱项符号族核对 335 处、抓出漏检并就地补修 109 处（正文共精准修改 243 处，全部 30 页历史验证报告与修订记录校验零受损）。两批累计 `60/155` 页（定谳 `[?]` 72 项，sweep 补修 190 处，不可判 0 项）。
+  - 重大纠偏亮点：`IUT-I p8` 推翻 W092 的 300dpi 误判，600dpi 证实全页 14 处 `※`（含框四角与上标）实为 `\divideontimes`（⋇）并配对补修 4 处 `\rtimes\pm`；`IUT-I p4` 补修 9 处 `\divideontimes` 与 8 处 `\rtimes\pm`；`EssentialLogicalStructure p88` 补修 18 处 `partial_frak_log → \mathfrak{log}`；`Essential p151` 定谳 `\Vdash\blacktriangleright` 与 5 处 `\nearrow → \Rsh`；`Essential p162` 纠偏 8 处 `\mathbf{\Theta} → \Theta`、8 处 `\boldsymbol{\mathfrak{log}} → \mathfrak{log}` 及 3 处 `^{\perp} → ^{\vdash}`；`IUTSummit2025 p9` 纠回 10 处 7pt `\Theta`（300dpi 糊连误作 `\ominus`）；`MFO-RIMS23 p8` 与 `IUGC2024 p8` 推翻 sips 错位导致的圆圈误数与 `\vec{\gamma}` 误读，恢复 `\gamma(0)/\gamma(t)/\gamma(1)`。
+- **下一跳**：紧接发射第 3 批（`batch=3, start=60, size=30/155`）。
+
+## W099 — S4① 600dpi闭环第3批收口（90/155）（2026-11-17）
+
+- **第 3 批收口**（`dwfrun-e3e35c98`，`60..89/155`，`Hydrogen$xhigh`，`max_concurrency=12`）：30/30 页一次完成（0 失败），新定谳 `[?]` 28 项、确认前序已闭环 12 项、`unresolvable@600dpi` 0 项；弱项符号族核对 265 处、抓出漏检并就地补修 110 处（正文共精准修改 463 处，全部 30 页历史验证报告与修订记录校验零受损）。三批累计 `90/155` 页（定谳 `[?]` 100 项，sweep 补修 300 处，不可判 0 项）。
+  - 重大纠偏亮点：`IUT-I p115/116/118/120` 与 `IUT-II p6/146/147`、`IUT-III p10` 批量坐实 `\divideontimes`（仅本批逾百处）与 `\rtimes\pm`；`IUT-II p75` 与 `IUT-I p118` 纠偏 9 处 `\odot → \circledcirc`（空心同心双环 ◎）；`IUT-II p2` AMS-TeX 编译像素比对定谳五条横线实为 `\underline{\underline{q}}_{\underline{v}}^{\underline{\underline{j}}^{2}}`；`IUT-II p146` 纠偏 25 处 `\mathbb{F}_{\ell} → \mathbb{F}_l`；`IUT-III p43` 回退前序 `sips` 错位导致的 4 处 `\mathfrak{S} → \mathfrak{F}` 误改；`IUT-I p120` 推翻 300dpi 假排印错误（原稿实印 `possibilities`）。
+- **下一跳**：紧接发射第 4 批（`batch=4, start=90, size=30/155`）。
+
+## W100 — S4① 600dpi闭环第4批收口（120/155）（2026-11-17）
+
+- **第 4 批收口**（`dwfrun-ee92b49a`，`90..119/155`，`Hydrogen$xhigh`，`max_concurrency=12`）：30/30 页一次完成（0 失败），新定谳 `[?]` 35 项、确认前序已闭环 15 项、`unresolvable@600dpi` 0 项；弱项符号族核对 422 处、抓出漏检并就地补修 113 处（正文共精准修改 384 处，全部 30 页历史验证报告与修订记录校验零受损）。四批累计 `120/155` 页（定谳 `[?]` 135 项，sweep 补修 413 处，不可判 0 项）。
+  - 重大纠偏亮点：`Y2017 p91` 600dpi 纠回花体系统性误读 `\mathfrak{J} → \mathfrak{Y}`（44 处）/`\mathfrak{Z}`（3 处）与 `\mathfrak{O}_N → \mathfrak{D}_N`（7 处）；`Y2017 p88` 像素 IoU（0.9990 vs 0.5744）纠回 13 处 `\mathfrak{V} → \mathfrak{Y}`；`Y2017 p150` 清零 10 处 `[?]`、推翻 300dpi 误判将 17 处 `\vdash` 正为 `\Vdash` 并删除幻觉第 5 外箭头；`Y2017 p164` 补修 23 处 `\odot → \circledcirc` 与 5 处 `\divideontimes`；`Y2017 p172` 补修 27 处 `\mathcal{D}^{\circ\pm} → \mathcal{D}^{\odot\pm}` 及 `\divideontimes`×8/`\rtimes\pm`×6；`Tan p48` 推翻 `\not\sqsupseteq → \nexists` 与 `\VDash → \Vdash`×6。
+- **下一跳**：紧接发射收官批第 5 批（`batch=5, start=120, size=35/155`，含穿透对账补入的 3 页）。
+
+## W101 — S4① 600dpi闭环第5批收官：155/155 全满贯达成 GOAL 目标①（2026-11-17）
+
+- **第 5 批收官**（`dwfrun-87ada23b`，`120..154/155`，35 页含穿透核查补入的 3 页，`Hydrogen$xhigh`，`max_concurrency=12`）：35/35 页一次完成（0 失败），新定谳 `[?]` 43 项、确认前序已闭环 19 项、`unresolvable@600dpi` 0 项；弱项符号族核对 411 处、补修 72 处（正文修改 239 处，全部 35 页历史小节无损）。
+  - 本批亮点：穿透核查补入的 `Rpt2018 p15` 经 600dpi+PDF 字形重嵌证实分隔符实为 MSBM10 `\curvearrowright`（推翻 `\ggcurly` 误读，修 11 处）；`KeioSlides p2` 全部 8 项存疑清零（`\underline{v}`×8、`\overline{K}_{\underline{v}}`×2、`\curvearrowright`×4、`^{\dagger}`×4）；`Y2018 p202` 纠偏 13 处 `\odot → \circledcirc`；`Y2018 p231` 600dpi 双向实证回修两处 `\mathbb{F}_l^*` 为普通星号（保留 5 处 `\psi/\phi` 下标 `\divideontimes`）；`Y2018 p355` 补修 11 处 `\divideontimes`。
+- **S4① 五批全满贯总账（155/155 页）**：新定谳并补修 `[?]` **178** 项 ｜ 确认前序已闭环 **87** 项 ｜ **`unresolvable@600dpi = 0`**（零物理不可判残留！） ｜ 跨波弱项符号族核对 **1678** 处、捕获漏检并就地补修 **485** 处 ｜ 正文累计精准修改 **1512** 处，历史验证报告与修订记录 100% 零受损。
+- **下一跳**：执行 GOAL 目标②——公开仓导出（`correction-layer` 入白名单 + 脱敏红线自检）与双仓 `v1.1-s4-complete` 收官准备。
+
+## W102 — S4收官文档现行化 + export_public v1.1红线自检全绿 + S5 Runbook立卷（2026-11-17）
+
+- **S4 文档与账目收口**：更新 `correction-layer/SUMMARY.md`（纳入 223/223 整页转写与 155/155 600dpi 闭环总账）、`adjudication-books/README.md`（补入批16 共 16 册 3,507 子项）、`MEMORY.md` 现行化，并按 R-28 §C 立里程碑卡 `dev-docs/goals/20261117-S4收官与S5残差清零-S4里程碑卡-v1.1.md`。
+- **公开仓导出升级与红线自检全绿**（`tools/publish/export_public.py` v1.1 + `redaction-map.md`）：
+  - 纳入 `adjudication-books/`、`correction-layer/`（`SUMMARY.md`、`families/`、`step2-spotcheck.md`、`imageblock-recheck.tsv`、`s4-600dpi-closure.tsv` 及剥离整段原文的 `entries-nocontext/` 68 文档 14,673 行索引；`pages/` 223 页整页论文转写原文按版权红线只留私有全量仓）、`tools/repair/`；
+  - 补全此前遗漏的 `~`、`<audit-workspace>`、桥接账号哈希脱敏与禁词扫描，构建 `/tmp/ABC-public-v1.1-stage` 实测红线全绿（0 `%PDF-` / 0 `脱敏账号前缀` / 0 `<redacted-user>` / 体积远低于 15MB 上限）。
+- **S5 磁带立卷**：已在 AI 仓建立 `dev-docs/abc-audit/RUNBOOK-S5残差清零.md`（精确盘点 S5-A/C = 343 页，S5-B = 3,861 条 / 1,901 页）。
+- **下一跳**：向用户汇报第 5 批交付与 `v1.1-s4-complete` 自检报告，等用户确认对外推送双仓 `v1.1-s4-complete` 并放行启动 S5-A/C。

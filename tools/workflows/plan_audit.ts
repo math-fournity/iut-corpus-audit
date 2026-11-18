@@ -28,18 +28,18 @@ interface WorkflowReport {
 }
 
 const DOCS = [
-  "/Users/aurolafly/ABC/dev-docs/2026-11-11-语料Markdown化与视觉审计方案.md",
-  "/Users/aurolafly/ABC/dev-docs/2026-11-11-审计舰队workflow化runbook.md",
-  "/Users/aurolafly/ABC/dev-docs/goals/20261111-全转全审-CHECKLIST.md",
-  "/Users/aurolafly/ABC/dev-docs/goals/20261111-全转全审-GOAL.md",
-  "/Users/aurolafly/ABC/tools/workflows/audit_fleet.ts",
-  "/Users/aurolafly/ABC/tools/workflows/audit_units.sh",
-  "/Users/aurolafly/ABC/tools/workflows/audit_harvest.sh",
-  "/Users/aurolafly/ABC/tools/workflows/spotcheck.ts",
-  "/Users/aurolafly/ABC/tools/workflows/count_rows.py",
-  "/Users/aurolafly/ABC/tools/workflows/prep_shards.py",
-  "/Users/aurolafly/.agents/skills/mineru/prompts/audit-subagent.md",
-  "/Users/aurolafly/.agents/skills/mineru/runbooks/visual-audit.md",
+  "dev-docs/2026-11-11-语料Markdown化与视觉审计方案.md",
+  "dev-docs/2026-11-11-审计舰队workflow化runbook.md",
+  "dev-docs/goals/20261111-全转全审-CHECKLIST.md",
+  "dev-docs/goals/20261111-全转全审-GOAL.md",
+  "tools/workflows/audit_fleet.ts",
+  "tools/workflows/audit_units.sh",
+  "tools/workflows/audit_harvest.sh",
+  "tools/workflows/spotcheck.ts",
+  "tools/workflows/count_rows.py",
+  "tools/workflows/prep_shards.py",
+  "~/.agents/skills/mineru/prompts/audit-subagent.md",
+  "~/.agents/skills/mineru/runbooks/visual-audit.md",
 ];
 
 phase("对抗审计方案全套");
@@ -60,7 +60,7 @@ const result = await reviewer.ask<PlanAuditResult>(
     "「可执行性」判断只做静态分析：读脚本、读文档、对照磁盘现状；任何必须真实运行才能确认的疑点，写进 findings 并明确标注「需编排者验证」，绝不自己跑。",
     "",
     "同时对照现实核对（只读方式，不要只信文字）：",
-    "1) 方案里引用的脚本/路径是否真实存在、接口是否与文档一致（tools/workflows/*.sh、*.py、*.ts；/Volumes/D/audit-workspace 布局）；",
+    "1) 方案里引用的脚本/路径是否真实存在、接口是否与文档一致（tools/workflows/*.sh、*.py、*.ts；<audit-workspace> 布局）；",
     "2) 方案声明的磁盘状态是否属实（corpus 68 .done？D 盘页图/切片计数？矩阵现状？legacy 64 页？）；",
     "3) 与 skill 真值（prompts/audit-subagent.md、runbooks/visual-audit.md）是否一致（铁律、六维度、F 码、600dpi 流程、并发安全设计）；",
     "4) 模型策略（RULE-009：GLM 5.3 Flash / DeepSeek V4.1 Flash，问供应商，Max Thinking）是否在方案中落实；",

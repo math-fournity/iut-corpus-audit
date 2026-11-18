@@ -9,7 +9,7 @@
 """
 import glob, json, re, sys
 
-REPO = "/Users/aurolafly/ABC"
+REPO = "~/ABC"
 
 
 def main():

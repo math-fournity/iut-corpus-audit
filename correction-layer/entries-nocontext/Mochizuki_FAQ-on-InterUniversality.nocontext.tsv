@@ -1,0 +1,3 @@
+页	行	族	模式	修复型	状态
+1	14	F08	双标点	deterministic-nop	rule-noop
+1	24	F08	HTML残留	deterministic-nop	rule-noop

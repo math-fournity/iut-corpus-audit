@@ -10,7 +10,7 @@ cd "$REPO"
 python3 - <<'EOF'
 import glob, json, os, re, subprocess
 
-WS = "/Volumes/D/audit-workspace"
+WS = "<audit-workspace>"
 SHARDS = "corpus-md-audit/shards"
 
 def pages_of(pdf):

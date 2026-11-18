@@ -6,8 +6,8 @@
 """
 import fitz, re, os, sys, json, unicodedata, subprocess
 
-REPO = "/Users/aurolafly/ABC"
-WS = "/Volumes/D/audit-workspace"
+REPO = "~/ABC"
+WS = "<audit-workspace>"
 OUT = f"{REPO}/corpus-md-audit/tier0"
 os.makedirs(OUT, exist_ok=True)
 

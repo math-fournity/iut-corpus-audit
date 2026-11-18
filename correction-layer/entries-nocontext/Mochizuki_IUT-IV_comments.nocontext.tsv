@@ -1,0 +1,17 @@
+页	行	族	模式	修复型	状态
+1	10	F03	ff连字丢失	deterministic	rule-based
+1	10	F08	双标点	deterministic-nop	rule-noop
+1	12	F07	变音符拆散	deterministic	rule-based
+1	24	F08	HTML残留	deterministic	rule-based
+2	4	F08	双标点	deterministic-nop	rule-noop
+2	6	F08	HTML残留	deterministic	rule-based
+2	8	F08	双标点	deterministic-nop	rule-noop
+2	8	F08	HTML残留	deterministic	rule-based
+2	8	F07	变音符拆散	deterministic	rule-based
+2	14	F08	双标点	deterministic-nop	rule-noop
+2	16	F08	双标点	deterministic-nop	rule-noop
+2	18	F03	ff连字丢失	deterministic	rule-based
+2	18	F08	双标点	deterministic-nop	rule-noop
+2	22	F02	小型大写作者名销毁	visual-required	needs-visual
+3	10	F08	双标点	deterministic-nop	rule-noop
+3	16	F08	双标点	deterministic-nop	rule-noop
